@@ -12,7 +12,7 @@ Date: 2026-11-10, about 21:20 UTC+7 (Asia/Saigon). All model outputs remain NOT 
 
 ## Decision
 
-User decision (the operator, 2026-11-10 21:14 UTC+7): change of design.
+User decision (Đoàn Quang Thắng, 2026-11-10 21:14 UTC+7): change of design.
 
 - **Voters (all over 9router, endpoint exactly `<9ROUTER_ENDPOINT>`):**
   - **V1** `cx/gpt-6-luna`: existing records reused (300/300 ok).

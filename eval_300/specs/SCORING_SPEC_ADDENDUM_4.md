@@ -7,7 +7,7 @@ Sol ≤ min(300, remaining)), no retries, no fallback, lanes, gaps, pauses, prob
 All model outputs remain NOT GOLD.
 
 ## Why
-At the user's explicit request (the operator, 2026-11-09 ~22:30 UTC+7), the Claude voter `ag/claude-opus-5-5-high` is replaced by
+At the user's explicit request (Đoàn Quang Thắng, 2026-11-09 ~22:30 UTC+7), the Claude voter `ag/claude-opus-5-5-high` is replaced by
 `ag/claude-sonnet-5-5-low`. Reason given: speed and rate limits on Opus high (many Antigravity 403/503 and slow calls).
 To keep one model per voter, the Claude voter is re-run on **all 300 items**; no item mixes Opus and Sonnet.
 

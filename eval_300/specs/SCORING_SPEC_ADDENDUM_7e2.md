@@ -13,7 +13,7 @@ Date: 2026-11-10, about 22:25 UTC+7 (Asia/Saigon). All model outputs remain NOT 
 
 Under 7e.1 both `oc/*` free models hit HTTP 429 `FreeUsageLimitError` (the OpenCode free quota, shared by both) at about 21:22 UTC+7. That is far short of the ~600 calls needed.
 
-User decision (the operator, 2026-11-10 22:17–22:18 UTC+7): final voter set, all over 9router (endpoint exactly `<9ROUTER_ENDPOINT>`), all light models of the same tier.
+User decision (Đoàn Quang Thắng, 2026-11-10 22:17–22:18 UTC+7): final voter set, all over 9router (endpoint exactly `<9ROUTER_ENDPOINT>`), all light models of the same tier.
 
 ## Voters
 

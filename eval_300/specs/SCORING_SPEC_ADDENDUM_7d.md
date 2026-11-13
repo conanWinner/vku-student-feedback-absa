@@ -4,7 +4,7 @@ Date: 2026-11-10, about 21:00 UTC+7 (Asia/Saigon). Scope: **stage-3 (t4, blind 4
 
 ## Decision
 
-User decision (the operator, 2026-11-10, about 20:45 and 20:55 UTC+7): Grok is no longer used; the stage-3 4th model is `cx/gpt-6.1-sol` with **high** reasoning effort, over 9router.
+User decision (Đoàn Quang Thắng, 2026-11-10, about 20:45 and 20:55 UTC+7): Grok is no longer used; the stage-3 4th model is `cx/gpt-6.1-sol` with **high** reasoning effort, over 9router.
 
 Reason for dropping `xai/grok-4.7`: it is not available on 9router. `/v1/models` lists no `xai` model, and calls return HTTP 404 `No active credentials for provider: xai` (E120 t4 attempts 1–3; health check in `probe_log_7c_xai.jsonl`). A 9router ping of 88 chat models (2026-11-10, about 20:45 UTC+7, dummy text, non-vote, file `/workspace/ping_9router_20261110.json`) found 39/88 working, including `cx/gpt-6.1-sol`.
 

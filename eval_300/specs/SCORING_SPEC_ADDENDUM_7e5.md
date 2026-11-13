@@ -10,7 +10,7 @@ This addendum was written:
 - `cx/gpt-6.1-sol` (stage-2 reviewer under 7e.1–7e.4) is rejected by 9router with HTTP 400 `invalid_request_error`: "The 'gpt-6.1-sol' model requires a newer version of Codex. Please upgrade to the latest app or CLI and try again."
   - Seen on: the last 7e.3 Sol attempt (E055 a3, 06:12:40 UTC+7); trivial pings at 06:27:42, 06:47:43 and 06:49:34 UTC+7 (all 2026-11-11; `probe_log_7e4.jsonl`).
   - The user upgraded Codex (before 06:47) and then restarted 9router (before 06:49); both did not fix it. The error is a router/client-version gate for 6.1 only: in the same minute `cx/gpt-6-sol` (06:49:46, HTTP 200, returned `gpt-6-sol`, parsed valid, 6.7 s) and `cx/gpt-6.1-terra` (06:50:03, HTTP 200) worked.
-- User decision (the operator, 2026-11-11 06:54 UTC+7, verbatim): "Dùng cx/gpt-6-sol medium cho bước 2, triển khai luôn".
+- User decision (Đoàn Quang Thắng, 2026-11-11 06:54 UTC+7, verbatim): "Dùng cx/gpt-6-sol medium cho bước 2, triển khai luôn".
 
 ## Stage 2 (changed)
 
