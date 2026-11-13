@@ -1,0 +1,28 @@
+{
+  "run_name": "e0_tfidf-svm_seed44",
+  "config": {
+    "model": "e0",
+    "seed": 44,
+    "data_dir": "data/Final_Data",
+    "limit": null,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "C": 1.0,
+    "class_weight": "balanced",
+    "preprocess": "normalize+lower"
+  },
+  "code_commit": "e89f1ce68c858b4c03cab0fe6fbf198ba32a9753+dirty",
+  "dataset_hash": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+  "num_sentences": {
+    "train": 11426,
+    "validation": 1583,
+    "test": 3166
+  },
+  "train_seconds": 0.9461123943328857,
+  "versions": {
+    "python": "3.13.7"
+  }
+}

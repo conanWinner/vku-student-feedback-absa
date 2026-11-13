@@ -1,0 +1,1360 @@
+{
+ "POST_HOC": true,
+ "addendum": "SCORING_SPEC_ADDENDUM_7e6.md",
+ "NOT_GOLD": true,
+ "WARNING": "old release equals the human-verified reference on this sample (SCORING_SPEC.md); fallback inflates agreement",
+ "old_dataset_sha256": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+ "n_unresolved_7e5": 72,
+ "fallback_applied": 72,
+ "fallback_explicit_polarity": 30,
+ "fallback_implicit_absent": 42,
+ "still_unresolved": 0,
+ "fallback_label_dist": {
+  "absent": 42,
+  "negative": 11,
+  "positive": 10,
+  "neutral": 9
+ },
+ "final_cells_by_source_all_3300": {
+  "unanimous": 1848,
+  "sol_resolved": 1335,
+  "tiebreak_resolved": 45,
+  "fallback_old_label": 72
+ },
+ "final_label_dist_all_3300": {
+  "negative": 118,
+  "absent": 2819,
+  "positive": 207,
+  "neutral": 154,
+  "ambiguous": 2
+ },
+ "n_cells": 433,
+ "policy_cells": 36,
+ "a_all": {
+  "main": {
+   "n": 433,
+   "aspect_recall": [
+    85.7,
+    82.1,
+    88.7
+   ],
+   "polarity_acc_given_detection": [
+    84.4,
+    80.3,
+    87.7
+   ],
+   "exact_match": [
+    72.3,
+    67.9,
+    76.3
+   ],
+   "n_detected": 371,
+   "n_exact": 313
+  },
+  "coverage_conditional": {
+   "n": 433,
+   "aspect_recall": [
+    85.7,
+    82.1,
+    88.7
+   ],
+   "polarity_acc_given_detection": [
+    84.4,
+    80.3,
+    87.7
+   ],
+   "exact_match": [
+    72.3,
+    67.9,
+    76.3
+   ],
+   "n_detected": 371,
+   "n_exact": 313
+  },
+  "coverage": [
+   100.0,
+   99.1,
+   100.0
+  ]
+ },
+ "b_excl_policy": {
+  "main": {
+   "n": 397,
+   "aspect_recall": [
+    85.6,
+    81.9,
+    88.8
+   ],
+   "polarity_acc_given_detection": [
+    91.5,
+    88.0,
+    94.0
+   ],
+   "exact_match": [
+    78.3,
+    74.0,
+    82.1
+   ],
+   "n_detected": 340,
+   "n_exact": 311
+  },
+  "coverage_conditional": {
+   "n": 397,
+   "aspect_recall": [
+    85.6,
+    81.9,
+    88.8
+   ],
+   "polarity_acc_given_detection": [
+    91.5,
+    88.0,
+    94.0
+   ],
+   "exact_match": [
+    78.3,
+    74.0,
+    82.1
+   ],
+   "n_detected": 340,
+   "n_exact": 311
+  },
+  "coverage": [
+   100.0,
+   99.0,
+   100.0
+  ]
+ },
+ "fallback_cells_on_human_ref": {
+  "n": 30,
+  "exact": [
+   100.0,
+   88.6,
+   100.0
+  ],
+  "n_exact": 30
+ },
+ "per_stage_all": {
+  "unanimous": {
+   "n": 230,
+   "aspect_recall": [
+    93.0,
+    89.0,
+    95.7
+   ],
+   "polarity_acc_given_detection": [
+    85.0,
+    79.7,
+    89.2
+   ],
+   "exact_match": [
+    79.1,
+    73.4,
+    83.9
+   ],
+   "n_detected": 214,
+   "n_exact": 182
+  },
+  "sol_resolved": {
+   "n": 154,
+   "aspect_recall": [
+    74.0,
+    66.6,
+    80.3
+   ],
+   "polarity_acc_given_detection": [
+    79.8,
+    71.5,
+    86.2
+   ],
+   "exact_match": [
+    59.1,
+    51.2,
+    66.5
+   ],
+   "n_detected": 114,
+   "n_exact": 91
+  },
+  "tiebreak_resolved": {
+   "n": 19,
+   "aspect_recall": [
+    68.4,
+    46.0,
+    84.6
+   ],
+   "polarity_acc_given_detection": [
+    76.9,
+    49.7,
+    91.8
+   ],
+   "exact_match": [
+    52.6,
+    31.7,
+    72.7
+   ],
+   "n_detected": 13,
+   "n_exact": 10
+  },
+  "fallback_old_label": {
+   "n": 30,
+   "aspect_recall": [
+    100.0,
+    88.6,
+    100.0
+   ],
+   "polarity_acc_given_detection": [
+    100.0,
+    88.6,
+    100.0
+   ],
+   "exact_match": [
+    100.0,
+    88.6,
+    100.0
+   ],
+   "n_detected": 30,
+   "n_exact": 30
+  },
+  "unresolved": {
+   "n": 0,
+   "aspect_recall": null,
+   "polarity_acc_given_detection": null,
+   "exact_match": null,
+   "n_detected": 0,
+   "n_exact": 0
+  }
+ },
+ "per_aspect_all": {
+  "ky_nang_giang_day": {
+   "main": {
+    "n": 141,
+    "aspect_recall": [
+     92.2,
+     86.6,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     83.6,
+     94.1
+    ],
+    "exact_match": [
+     83.0,
+     75.9,
+     88.3
+    ],
+    "n_detected": 130,
+    "n_exact": 117
+   },
+   "coverage_conditional": {
+    "n": 141,
+    "aspect_recall": [
+     92.2,
+     86.6,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     83.6,
+     94.1
+    ],
+    "exact_match": [
+     83.0,
+     75.9,
+     88.3
+    ],
+    "n_detected": 130,
+    "n_exact": 117
+   },
+   "coverage": [
+    100.0,
+    97.3,
+    100.0
+   ]
+  },
+  "hanh_vi": {
+   "main": {
+    "n": 51,
+    "aspect_recall": [
+     90.2,
+     79.0,
+     95.7
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.3,
+     100.0
+    ],
+    "exact_match": [
+     90.2,
+     79.0,
+     95.7
+    ],
+    "n_detected": 46,
+    "n_exact": 46
+   },
+   "coverage_conditional": {
+    "n": 51,
+    "aspect_recall": [
+     90.2,
+     79.0,
+     95.7
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.3,
+     100.0
+    ],
+    "exact_match": [
+     90.2,
+     79.0,
+     95.7
+    ],
+    "n_detected": 46,
+    "n_exact": 46
+   },
+   "coverage": [
+    100.0,
+    93.0,
+    100.0
+   ]
+  },
+  "de_xuat": {
+   "main": {
+    "n": 53,
+    "aspect_recall": [
+     98.1,
+     90.1,
+     99.7
+    ],
+    "polarity_acc_given_detection": [
+     78.8,
+     66.0,
+     87.8
+    ],
+    "exact_match": [
+     77.4,
+     64.5,
+     86.5
+    ],
+    "n_detected": 52,
+    "n_exact": 41
+   },
+   "coverage_conditional": {
+    "n": 53,
+    "aspect_recall": [
+     98.1,
+     90.1,
+     99.7
+    ],
+    "polarity_acc_given_detection": [
+     78.8,
+     66.0,
+     87.8
+    ],
+    "exact_match": [
+     77.4,
+     64.5,
+     86.5
+    ],
+    "n_detected": 52,
+    "n_exact": 41
+   },
+   "coverage": [
+    100.0,
+    93.2,
+    100.0
+   ]
+  },
+  "bai_tap": {
+   "main": {
+    "n": 32,
+    "aspect_recall": [
+     96.9,
+     84.3,
+     99.4
+    ],
+    "polarity_acc_given_detection": [
+     64.5,
+     46.9,
+     78.9
+    ],
+    "exact_match": [
+     62.5,
+     45.3,
+     77.1
+    ],
+    "n_detected": 31,
+    "n_exact": 20
+   },
+   "coverage_conditional": {
+    "n": 32,
+    "aspect_recall": [
+     96.9,
+     84.3,
+     99.4
+    ],
+    "polarity_acc_given_detection": [
+     64.5,
+     46.9,
+     78.9
+    ],
+    "exact_match": [
+     62.5,
+     45.3,
+     77.1
+    ],
+    "n_detected": 31,
+    "n_exact": 20
+   },
+   "coverage": [
+    100.0,
+    89.3,
+    100.0
+   ]
+  },
+  "chuong_trinh_hoc": {
+   "main": {
+    "n": 26,
+    "aspect_recall": [
+     69.2,
+     50.0,
+     83.5
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     54.8,
+     91.0
+    ],
+    "exact_match": [
+     53.8,
+     35.5,
+     71.2
+    ],
+    "n_detected": 18,
+    "n_exact": 14
+   },
+   "coverage_conditional": {
+    "n": 26,
+    "aspect_recall": [
+     69.2,
+     50.0,
+     83.5
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     54.8,
+     91.0
+    ],
+    "exact_match": [
+     53.8,
+     35.5,
+     71.2
+    ],
+    "n_detected": 18,
+    "n_exact": 14
+   },
+   "coverage": [
+    100.0,
+    87.1,
+    100.0
+   ]
+  },
+  "kien_thuc": {
+   "main": {
+    "n": 27,
+    "aspect_recall": [
+     48.1,
+     30.7,
+     66.0
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     40.7,
+     24.5,
+     59.3
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 27,
+    "aspect_recall": [
+     48.1,
+     30.7,
+     66.0
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     40.7,
+     24.5,
+     59.3
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage": [
+    100.0,
+    87.5,
+    100.0
+   ]
+  },
+  "kinh_nghiem": {
+   "main": {
+    "n": 22,
+    "aspect_recall": [
+     45.5,
+     26.9,
+     65.3
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     59.6,
+     98.2
+    ],
+    "exact_match": [
+     40.9,
+     23.3,
+     61.3
+    ],
+    "n_detected": 10,
+    "n_exact": 9
+   },
+   "coverage_conditional": {
+    "n": 22,
+    "aspect_recall": [
+     45.5,
+     26.9,
+     65.3
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     59.6,
+     98.2
+    ],
+    "exact_match": [
+     40.9,
+     23.3,
+     61.3
+    ],
+    "n_detected": 10,
+    "n_exact": 9
+   },
+   "coverage": [
+    100.0,
+    85.1,
+    100.0
+   ]
+  },
+  "cung_cap_tai_lieu": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     90.0,
+     69.9,
+     97.2
+    ],
+    "polarity_acc_given_detection": [
+     66.7,
+     43.7,
+     83.7
+    ],
+    "exact_match": [
+     60.0,
+     38.7,
+     78.1
+    ],
+    "n_detected": 18,
+    "n_exact": 12
+   },
+   "coverage_conditional": {
+    "n": 20,
+    "aspect_recall": [
+     90.0,
+     69.9,
+     97.2
+    ],
+    "polarity_acc_given_detection": [
+     66.7,
+     43.7,
+     83.7
+    ],
+    "exact_match": [
+     60.0,
+     38.7,
+     78.1
+    ],
+    "n_detected": 18,
+    "n_exact": 12
+   },
+   "coverage": [
+    100.0,
+    83.9,
+    100.0
+   ]
+  },
+  "thiet_bi_day_hoc": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     90.5,
+     71.1,
+     97.3
+    ],
+    "polarity_acc_given_detection": [
+     68.4,
+     46.0,
+     84.6
+    ],
+    "exact_match": [
+     61.9,
+     40.9,
+     79.2
+    ],
+    "n_detected": 19,
+    "n_exact": 13
+   },
+   "coverage_conditional": {
+    "n": 21,
+    "aspect_recall": [
+     90.5,
+     71.1,
+     97.3
+    ],
+    "polarity_acc_given_detection": [
+     68.4,
+     46.0,
+     84.6
+    ],
+    "exact_match": [
+     61.9,
+     40.9,
+     79.2
+    ],
+    "n_detected": 19,
+    "n_exact": 13
+   },
+   "coverage": [
+    100.0,
+    84.5,
+    100.0
+   ]
+  },
+  "cham_diem": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     90.0,
+     69.9,
+     97.2
+    ],
+    "polarity_acc_given_detection": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "exact_match": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "n_detected": 18,
+    "n_exact": 16
+   },
+   "coverage_conditional": {
+    "n": 20,
+    "aspect_recall": [
+     90.0,
+     69.9,
+     97.2
+    ],
+    "polarity_acc_given_detection": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "exact_match": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "n_detected": 18,
+    "n_exact": 16
+   },
+   "coverage": [
+    100.0,
+    83.9,
+    100.0
+   ]
+  },
+  "noi_chung": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     64.0,
+     96.5
+    ],
+    "exact_match": [
+     70.0,
+     48.1,
+     85.5
+    ],
+    "n_detected": 16,
+    "n_exact": 14
+   },
+   "coverage_conditional": {
+    "n": 20,
+    "aspect_recall": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     64.0,
+     96.5
+    ],
+    "exact_match": [
+     70.0,
+     48.1,
+     85.5
+    ],
+    "n_detected": 16,
+    "n_exact": 14
+   },
+   "coverage": [
+    100.0,
+    83.9,
+    100.0
+   ]
+  }
+ },
+ "per_aspect_excl": {
+  "ky_nang_giang_day": {
+   "main": {
+    "n": 131,
+    "aspect_recall": [
+     92.4,
+     86.5,
+     95.8
+    ],
+    "polarity_acc_given_detection": [
+     96.7,
+     91.8,
+     98.7
+    ],
+    "exact_match": [
+     89.3,
+     82.9,
+     93.5
+    ],
+    "n_detected": 121,
+    "n_exact": 117
+   },
+   "coverage_conditional": {
+    "n": 131,
+    "aspect_recall": [
+     92.4,
+     86.5,
+     95.8
+    ],
+    "polarity_acc_given_detection": [
+     96.7,
+     91.8,
+     98.7
+    ],
+    "exact_match": [
+     89.3,
+     82.9,
+     93.5
+    ],
+    "n_detected": 121,
+    "n_exact": 117
+   },
+   "coverage": [
+    100.0,
+    97.2,
+    100.0
+   ]
+  },
+  "hanh_vi": {
+   "main": {
+    "n": 49,
+    "aspect_recall": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.0,
+     100.0
+    ],
+    "exact_match": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "n_detected": 44,
+    "n_exact": 44
+   },
+   "coverage_conditional": {
+    "n": 49,
+    "aspect_recall": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.0,
+     100.0
+    ],
+    "exact_match": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "n_detected": 44,
+    "n_exact": 44
+   },
+   "coverage": [
+    100.0,
+    92.7,
+    100.0
+   ]
+  },
+  "de_xuat": {
+   "main": {
+    "n": 47,
+    "aspect_recall": [
+     97.9,
+     88.9,
+     99.6
+    ],
+    "polarity_acc_given_detection": [
+     89.1,
+     77.0,
+     95.3
+    ],
+    "exact_match": [
+     87.2,
+     74.8,
+     94.0
+    ],
+    "n_detected": 46,
+    "n_exact": 41
+   },
+   "coverage_conditional": {
+    "n": 47,
+    "aspect_recall": [
+     97.9,
+     88.9,
+     99.6
+    ],
+    "polarity_acc_given_detection": [
+     89.1,
+     77.0,
+     95.3
+    ],
+    "exact_match": [
+     87.2,
+     74.8,
+     94.0
+    ],
+    "n_detected": 46,
+    "n_exact": 41
+   },
+   "coverage": [
+    100.0,
+    92.4,
+    100.0
+   ]
+  },
+  "bai_tap": {
+   "main": {
+    "n": 28,
+    "aspect_recall": [
+     96.4,
+     82.3,
+     99.4
+    ],
+    "polarity_acc_given_detection": [
+     74.1,
+     55.3,
+     86.8
+    ],
+    "exact_match": [
+     71.4,
+     52.9,
+     84.7
+    ],
+    "n_detected": 27,
+    "n_exact": 20
+   },
+   "coverage_conditional": {
+    "n": 28,
+    "aspect_recall": [
+     96.4,
+     82.3,
+     99.4
+    ],
+    "polarity_acc_given_detection": [
+     74.1,
+     55.3,
+     86.8
+    ],
+    "exact_match": [
+     71.4,
+     52.9,
+     84.7
+    ],
+    "n_detected": 27,
+    "n_exact": 20
+   },
+   "coverage": [
+    100.0,
+    87.9,
+    100.0
+   ]
+  },
+  "chuong_trinh_hoc": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     71.4,
+     50.0,
+     86.2
+    ],
+    "polarity_acc_given_detection": [
+     93.3,
+     70.2,
+     98.8
+    ],
+    "exact_match": [
+     66.7,
+     45.4,
+     82.8
+    ],
+    "n_detected": 15,
+    "n_exact": 14
+   },
+   "coverage_conditional": {
+    "n": 21,
+    "aspect_recall": [
+     71.4,
+     50.0,
+     86.2
+    ],
+    "polarity_acc_given_detection": [
+     93.3,
+     70.2,
+     98.8
+    ],
+    "exact_match": [
+     66.7,
+     45.4,
+     82.8
+    ],
+    "n_detected": 15,
+    "n_exact": 14
+   },
+   "coverage": [
+    100.0,
+    84.5,
+    100.0
+   ]
+  },
+  "kien_thuc": {
+   "main": {
+    "n": 26,
+    "aspect_recall": [
+     50.0,
+     32.1,
+     67.9
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     42.3,
+     25.5,
+     61.1
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 26,
+    "aspect_recall": [
+     50.0,
+     32.1,
+     67.9
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     42.3,
+     25.5,
+     61.1
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage": [
+    100.0,
+    87.1,
+    100.0
+   ]
+  },
+  "kinh_nghiem": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     47.6,
+     28.3,
+     67.6
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     59.6,
+     98.2
+    ],
+    "exact_match": [
+     42.9,
+     24.5,
+     63.5
+    ],
+    "n_detected": 10,
+    "n_exact": 9
+   },
+   "coverage_conditional": {
+    "n": 21,
+    "aspect_recall": [
+     47.6,
+     28.3,
+     67.6
+    ],
+    "polarity_acc_given_detection": [
+     90.0,
+     59.6,
+     98.2
+    ],
+    "exact_match": [
+     42.9,
+     24.5,
+     63.5
+    ],
+    "n_detected": 10,
+    "n_exact": 9
+   },
+   "coverage": [
+    100.0,
+    84.5,
+    100.0
+   ]
+  },
+  "cung_cap_tai_lieu": {
+   "main": {
+    "n": 17,
+    "aspect_recall": [
+     88.2,
+     65.7,
+     96.7
+    ],
+    "polarity_acc_given_detection": [
+     80.0,
+     54.8,
+     93.0
+    ],
+    "exact_match": [
+     70.6,
+     46.9,
+     86.7
+    ],
+    "n_detected": 15,
+    "n_exact": 12
+   },
+   "coverage_conditional": {
+    "n": 17,
+    "aspect_recall": [
+     88.2,
+     65.7,
+     96.7
+    ],
+    "polarity_acc_given_detection": [
+     80.0,
+     54.8,
+     93.0
+    ],
+    "exact_match": [
+     70.6,
+     46.9,
+     86.7
+    ],
+    "n_detected": 15,
+    "n_exact": 12
+   },
+   "coverage": [
+    100.0,
+    81.6,
+    100.0
+   ]
+  },
+  "thiet_bi_day_hoc": {
+   "main": {
+    "n": 18,
+    "aspect_recall": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "polarity_acc_given_detection": [
+     81.2,
+     57.0,
+     93.4
+    ],
+    "exact_match": [
+     72.2,
+     49.1,
+     87.5
+    ],
+    "n_detected": 16,
+    "n_exact": 13
+   },
+   "coverage_conditional": {
+    "n": 18,
+    "aspect_recall": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "polarity_acc_given_detection": [
+     81.2,
+     57.0,
+     93.4
+    ],
+    "exact_match": [
+     72.2,
+     49.1,
+     87.5
+    ],
+    "n_detected": 16,
+    "n_exact": 13
+   },
+   "coverage": [
+    100.0,
+    82.4,
+    100.0
+   ]
+  },
+  "cham_diem": {
+   "main": {
+    "n": 19,
+    "aspect_recall": [
+     89.5,
+     68.6,
+     97.1
+    ],
+    "polarity_acc_given_detection": [
+     94.1,
+     73.0,
+     99.0
+    ],
+    "exact_match": [
+     84.2,
+     62.4,
+     94.5
+    ],
+    "n_detected": 17,
+    "n_exact": 16
+   },
+   "coverage_conditional": {
+    "n": 19,
+    "aspect_recall": [
+     89.5,
+     68.6,
+     97.1
+    ],
+    "polarity_acc_given_detection": [
+     94.1,
+     73.0,
+     99.0
+    ],
+    "exact_match": [
+     84.2,
+     62.4,
+     94.5
+    ],
+    "n_detected": 17,
+    "n_exact": 16
+   },
+   "coverage": [
+    100.0,
+    83.2,
+    100.0
+   ]
+  },
+  "noi_chung": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     64.0,
+     96.5
+    ],
+    "exact_match": [
+     70.0,
+     48.1,
+     85.5
+    ],
+    "n_detected": 16,
+    "n_exact": 14
+   },
+   "coverage_conditional": {
+    "n": 20,
+    "aspect_recall": [
+     80.0,
+     58.4,
+     91.9
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     64.0,
+     96.5
+    ],
+    "exact_match": [
+     70.0,
+     48.1,
+     85.5
+    ],
+    "n_detected": 16,
+    "n_exact": 14
+   },
+   "coverage": [
+    100.0,
+    83.9,
+    100.0
+   ]
+  }
+ },
+ "per_note_all": {
+  "checked": {
+   "main": {
+    "n": 205,
+    "aspect_recall": [
+     88.3,
+     83.2,
+     92.0
+    ],
+    "polarity_acc_given_detection": [
+     92.8,
+     88.1,
+     95.8
+    ],
+    "exact_match": [
+     82.0,
+     76.1,
+     86.6
+    ],
+    "n_detected": 181,
+    "n_exact": 168
+   },
+   "coverage_conditional": {
+    "n": 205,
+    "aspect_recall": [
+     88.3,
+     83.2,
+     92.0
+    ],
+    "polarity_acc_given_detection": [
+     92.8,
+     88.1,
+     95.8
+    ],
+    "exact_match": [
+     82.0,
+     76.1,
+     86.6
+    ],
+    "n_detected": 181,
+    "n_exact": 168
+   },
+   "coverage": [
+    100.0,
+    98.2,
+    100.0
+   ]
+  },
+  "kept_ai": {
+   "main": {
+    "n": 228,
+    "aspect_recall": [
+     83.3,
+     78.0,
+     87.6
+    ],
+    "polarity_acc_given_detection": [
+     76.3,
+     69.8,
+     81.8
+    ],
+    "exact_match": [
+     63.6,
+     57.2,
+     69.6
+    ],
+    "n_detected": 190,
+    "n_exact": 145
+   },
+   "coverage_conditional": {
+    "n": 228,
+    "aspect_recall": [
+     83.3,
+     78.0,
+     87.6
+    ],
+    "polarity_acc_given_detection": [
+     76.3,
+     69.8,
+     81.8
+    ],
+    "exact_match": [
+     63.6,
+     57.2,
+     69.6
+    ],
+    "n_detected": 190,
+    "n_exact": 145
+   },
+   "coverage": [
+    100.0,
+    98.3,
+    100.0
+   ]
+  }
+ }
+}

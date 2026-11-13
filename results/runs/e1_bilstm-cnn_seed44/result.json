@@ -1,0 +1,213 @@
+{
+  "run_name": "e1_bilstm-cnn_seed44",
+  "config": {
+    "model": "bilstm_cnn",
+    "seed": 44,
+    "encoder": "vinai/phobert-base",
+    "revision": null,
+    "preprocess": "underthesea+lower",
+    "word2vec": "/kaggle/input/models/conanwinner1/w2vec/pytorch/default/1/baomoi.vn.model.bin",
+    "data_dir": "/kaggle/input/datasets/thngonquang/vku-feedback-v2",
+    "output_dir": "results/runs",
+    "run_name": "e1_bilstm-cnn_seed44",
+    "alpha": 1.0,
+    "beta": 1.0,
+    "selection": "pair",
+    "lr": 0.0005,
+    "epochs": 30,
+    "limit": null,
+    "device": null,
+    "save_checkpoint": false,
+    "batch_size": 32,
+    "eval_batch_size": 64,
+    "patience": 5
+  },
+  "code_commit": "e89f1ce+src-58b9b17215b6",
+  "dataset_hash": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+  "limited_smoke_run": false,
+  "num_sentences": {
+    "train": 11426,
+    "validation": 1583,
+    "test": 3166
+  },
+  "truncation_rate": {
+    "train": 0.0,
+    "validation": 0.0006317119393556538,
+    "test": 0.0
+  },
+  "vocab_size": 4011,
+  "word2vec": "/kaggle/input/models/conanwinner1/w2vec/pytorch/default/1/baomoi.vn.model.bin",
+  "word2vec_coverage": 0.9057121476677475,
+  "best_epoch": 15,
+  "best_val_score": 0.7244425746739588,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8105170778389084,
+      "val_score": 0.6139681113855827,
+      "val_aspect_f1_micro": 0.6876263193352795,
+      "val_pair_f1_micro": 0.6139681113855827,
+      "seconds": 5.316966772079468
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5792853799778656,
+      "val_score": 0.6736526946107785,
+      "val_aspect_f1_micro": 0.7510692899914457,
+      "val_pair_f1_micro": 0.6736526946107785,
+      "seconds": 9.882493495941162
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.5118056186917108,
+      "val_score": 0.6816013275254098,
+      "val_aspect_f1_micro": 0.7699647376063058,
+      "val_pair_f1_micro": 0.6816013275254098,
+      "seconds": 14.328550577163696
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.47155682176518043,
+      "val_score": 0.6993657505285412,
+      "val_aspect_f1_micro": 0.7856236786469345,
+      "val_pair_f1_micro": 0.6993657505285412,
+      "seconds": 18.764168739318848
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4511305263588548,
+      "val_score": 0.7106391668368389,
+      "val_aspect_f1_micro": 0.802123749234225,
+      "val_pair_f1_micro": 0.7106391668368389,
+      "seconds": 23.169386625289917
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.4352383459163778,
+      "val_score": 0.718259778289061,
+      "val_aspect_f1_micro": 0.8077807989960258,
+      "val_pair_f1_micro": 0.718259778289061,
+      "seconds": 27.683709383010864
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.43400830159473686,
+      "val_score": 0.7127287682500514,
+      "val_aspect_f1_micro": 0.8052642401809582,
+      "val_pair_f1_micro": 0.7127287682500514,
+      "seconds": 32.12918496131897
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4266414563145551,
+      "val_score": 0.7132984293193718,
+      "val_aspect_f1_micro": 0.8020942408376963,
+      "val_pair_f1_micro": 0.7132984293193718,
+      "seconds": 36.46165442466736
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4189202382577864,
+      "val_score": 0.7179380586156725,
+      "val_aspect_f1_micro": 0.8052379962585741,
+      "val_pair_f1_micro": 0.7179380586156725,
+      "seconds": 40.848156213760376
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.40543052375150124,
+      "val_score": 0.7174139728884255,
+      "val_aspect_f1_micro": 0.8100104275286757,
+      "val_pair_f1_micro": 0.7174139728884255,
+      "seconds": 45.15596151351929
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.3988638418679797,
+      "val_score": 0.7216451134195463,
+      "val_aspect_f1_micro": 0.8149247403010388,
+      "val_pair_f1_micro": 0.7216451134195463,
+      "seconds": 49.53839182853699
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.39775974599009783,
+      "val_score": 0.7176495103146489,
+      "val_aspect_f1_micro": 0.8114190456345072,
+      "val_pair_f1_micro": 0.7176495103146489,
+      "seconds": 53.903367042541504
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.3939621097215727,
+      "val_score": 0.7190586257617146,
+      "val_aspect_f1_micro": 0.8115150241647405,
+      "val_pair_f1_micro": 0.7190586257617146,
+      "seconds": 58.388532400131226
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.39537019159790526,
+      "val_score": 0.7201336675020886,
+      "val_aspect_f1_micro": 0.8116123642439431,
+      "val_pair_f1_micro": 0.7201336675020886,
+      "seconds": 62.68337392807007
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.38441840317828696,
+      "val_score": 0.7244425746739588,
+      "val_aspect_f1_micro": 0.8161548169962137,
+      "val_pair_f1_micro": 0.7244425746739588,
+      "seconds": 66.9937801361084
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.383198318160113,
+      "val_score": 0.7234132880492465,
+      "val_aspect_f1_micro": 0.8159626406283167,
+      "val_pair_f1_micro": 0.7234132880492465,
+      "seconds": 71.41728186607361
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.38077300786972046,
+      "val_score": 0.7241595322614324,
+      "val_aspect_f1_micro": 0.811025266235122,
+      "val_pair_f1_micro": 0.7241595322614324,
+      "seconds": 75.7457263469696
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.38067007836412287,
+      "val_score": 0.721598002496879,
+      "val_aspect_f1_micro": 0.8119017894298792,
+      "val_pair_f1_micro": 0.721598002496879,
+      "seconds": 80.14337372779846
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.37395732722885117,
+      "val_score": 0.7200333541796957,
+      "val_aspect_f1_micro": 0.8138419845736918,
+      "val_pair_f1_micro": 0.7200333541796957,
+      "seconds": 84.57277321815491
+    },
+    {
+      "epoch": 20,
+      "train_loss": 0.37423521126282283,
+      "val_score": 0.7191994996873047,
+      "val_aspect_f1_micro": 0.8109234938503231,
+      "val_pair_f1_micro": 0.7191994996873047,
+      "seconds": 88.94444966316223
+    }
+  ],
+  "train_seconds": 89.47882199287415,
+  "peak_gpu_memory_mb": 215.5830078125,
+  "versions": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "transformers": null
+  }
+}

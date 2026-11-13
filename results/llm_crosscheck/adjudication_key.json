@@ -1,0 +1,2048 @@
+{
+ "models": [
+  "ag/gemini-3.8-flash",
+  "ag/claude-sonnet-4-6"
+ ],
+ "cells": {
+  "train6:1384|ky_nang_giang_day": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1384|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:1384|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1384|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1333|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1333|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:789|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:789|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:789|kinh_nghiem": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:789|thiet_bi_day_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:887|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:887|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:999|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:999|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:657|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2253|cung_cap_tai_lieu": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1892|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:200|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:1854|bai_tap": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1108|cung_cap_tai_lieu": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:252|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:881|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:881|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1498|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1498|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:970|hanh_vi": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:944|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2658|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2658|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2652|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:344|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:398|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:398|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:607|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:755|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:755|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:730|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:956|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:534|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:534|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:1750|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:205|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:205|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1238|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1238|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:1902|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:1902|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:1224|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:776|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1628|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:940|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:1804|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:1583|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1583|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:760|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:760|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:760|cung_cap_tai_lieu": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:760|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:358|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:358|bai_tap": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1150|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:1150|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:1150|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1616|kinh_nghiem": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:291|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:291|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:280|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:2889|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:269|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:808|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:808|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:808|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:1180|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:227|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:278|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:753|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:753|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:829|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:829|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:463|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:463|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:1080|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:73|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:73|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:73|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1782|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1782|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1036|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:733|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:733|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:733|kinh_nghiem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:286|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1575|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:1575|noi_chung": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:1356|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:804|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1394|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1394|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:886|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:886|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2686|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2686|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:2686|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:939|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:30|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:30|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1742|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1651|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1651|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1486|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:1333|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:1333|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:632|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1603|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1603|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1603|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:1576|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:809|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1192|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1192|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1383|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1383|kinh_nghiem": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1828|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:1856|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1856|cham_diem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:22|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1408|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1699|cham_diem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:2722|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2722|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:105|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:631|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:342|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:173|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:173|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:673|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:673|noi_chung": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1721|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1695|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1695|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1695|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1373|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1337|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:456|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:398|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:314|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:314|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1547|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1547|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1547|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:1038|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:1038|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:777|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:735|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:735|kinh_nghiem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:267|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:267|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:570|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:570|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:570|cham_diem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:768|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:768|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:497|hanh_vi": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:497|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:497|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1008|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1008|de_xuat": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1008|cham_diem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1008|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:1334|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:585|kinh_nghiem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:1379|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:206|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:1445|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:173|ky_nang_giang_day": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:173|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:173|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:8|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1675|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1675|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1792|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1792|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1897|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:209|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1207|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1207|kien_thuc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:293|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:293|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:293|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:1006|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:1925|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:270|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1161|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1161|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:1273|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:1273|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2553|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2553|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:128|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:990|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:613|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:613|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:613|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2866|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:93|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:93|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1336|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:1891|ky_nang_giang_day": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1891|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1724|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1100|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1100|noi_chung": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:906|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:906|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:906|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:768|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:768|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:146|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:3117|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:3117|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:3117|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1787|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:1787|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:1246|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:370|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:623|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:456|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:1838|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1838|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:506|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:506|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:506|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1889|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1889|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:613|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:710|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:710|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:268|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2330|bai_tap": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1334|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "validation:787|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:722|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:2687|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2687|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2687|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:726|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:726|chuong_trinh_hoc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:370|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:496|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:496|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:835|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2742|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:2742|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2742|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train6:861|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1316|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:1316|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:747|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:630|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:630|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:1961|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:65|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:1230|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:1230|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1230|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:1321|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1099|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:1099|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1099|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:932|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:932|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1361|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:1347|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1597|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1597|thiet_bi_day_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:568|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2137|de_xuat": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:506|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:506|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2270|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2270|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:804|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:514|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:514|kien_thuc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:293|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1458|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:446|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1086|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1358|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1358|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1358|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:622|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1744|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1306|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1306|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1306|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1306|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1868|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1868|kinh_nghiem": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1625|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:923|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:923|cham_diem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:231|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:1240|de_xuat": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:1240|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:766|thiet_bi_day_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "validation:766|noi_chung": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1557|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1557|cham_diem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:922|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:349|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:349|kien_thuc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1335|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:180|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train4:937|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:937|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:1733|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1733|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1733|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:794|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:794|thiet_bi_day_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:294|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:294|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:3055|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:946|de_xuat": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:3040|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1917|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1917|kien_thuc": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2482|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2482|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2482|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2482|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:2482|kinh_nghiem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:459|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:459|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:459|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:459|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:459|kinh_nghiem": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:459|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:290|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:1042|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1042|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:1042|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:877|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train4:877|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:976|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:1898|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "validation:1110|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:364|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1272|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:617|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:617|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:3|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "test:966|hanh_vi": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:966|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "validation:505|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:99|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:99|kien_thuc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:99|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1163|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:1163|kinh_nghiem": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:1347|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:1347|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1667|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1667|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1667|chuong_trinh_hoc": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:1110|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:1110|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train4:1814|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train4:1814|noi_chung": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1523|ky_nang_giang_day": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:1523|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train2:1523|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train2:1247|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:917|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train6:917|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:274|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train1:274|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train1:518|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:518|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train3:429|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "test:1531|ky_nang_giang_day": {
+   "released": "positive",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:848|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:848|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train5:1551|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:1641|kinh_nghiem": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train1:232|chuong_trinh_hoc": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train1:232|cung_cap_tai_lieu": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:831|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:831|noi_chung": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:161|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:889|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1101|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train5:1101|chuong_trinh_hoc": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train5:1101|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:655|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train2:655|bai_tap": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train2:655|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train6:1348|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train6:1348|bai_tap": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "test:2306|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1314|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "negative",
+   "ag/claude-sonnet-4-6": "negative"
+  },
+  "train5:1314|hanh_vi": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "positive",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "test:2849|ky_nang_giang_day": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1590|hanh_vi": {
+   "released": "none",
+   "ag/gemini-3.8-flash": "none",
+   "ag/claude-sonnet-4-6": "neutral"
+  },
+  "train3:1590|noi_chung": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "none"
+  },
+  "train3:1948|de_xuat": {
+   "released": "neutral",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "positive"
+  },
+  "train3:1948|cung_cap_tai_lieu": {
+   "released": "negative",
+   "ag/gemini-3.8-flash": "neutral",
+   "ag/claude-sonnet-4-6": "negative"
+  }
+ }
+}

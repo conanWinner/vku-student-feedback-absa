@@ -1,0 +1,64 @@
+{
+ "sample": 500,
+ "scored": 500,
+ "prompt_sha256": "1ea57702970f6708ae1db3ae291fecd315f5b9faaaf33ae51d55893192a3ae29",
+ "dataset_sha256": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+ "pairs": {
+  "released vs ag/gemini-3.8-flash": {
+   "cells": 5500,
+   "cell_kappa": 0.7955,
+   "pair_f1": 75.76,
+   "aspect_f1": 87.22,
+   "sentence_exact": 62.4
+  },
+  "released vs ag/claude-sonnet-4-6": {
+   "cells": 5500,
+   "cell_kappa": 0.7837,
+   "pair_f1": 74.62,
+   "aspect_f1": 86.42,
+   "sentence_exact": 58.2
+  },
+  "ag/gemini-3.8-flash vs ag/claude-sonnet-4-6": {
+   "cells": 5500,
+   "cell_kappa": 0.8321,
+   "pair_f1": 79.88,
+   "aspect_f1": 89.94,
+   "sentence_exact": 68.4
+  }
+ },
+ "adjudication": {
+  "adjudicated_cells": 30,
+  "disagreeing_cells": 408,
+  "sentences_scored": 276,
+  "released_cells_changed": 22,
+  "released_change_kinds": {
+   "aspect_added": 14,
+   "aspect_removed": 1,
+   "polarity_changed": 7
+  },
+  "released_sentences_changed": 14,
+  "vs_reference": {
+   "released": {
+    "cells": 3036,
+    "cell_kappa": 0.9681,
+    "pair_f1": 96.19,
+    "aspect_f1": 98.03,
+    "sentence_exact": 94.93
+   },
+   "ag/gemini-3.8-flash": {
+    "cells": 3036,
+    "cell_kappa": 0.9798,
+    "pair_f1": 97.77,
+    "aspect_f1": 98.56,
+    "sentence_exact": 95.65
+   },
+   "ag/claude-sonnet-4-6": {
+    "cells": 3036,
+    "cell_kappa": 0.9842,
+    "pair_f1": 98.17,
+    "aspect_f1": 98.96,
+    "sentence_exact": 96.74
+   }
+  }
+ }
+}

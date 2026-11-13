@@ -1,0 +1,395 @@
+{
+  "split": "test",
+  "group_sizes": {
+    "all": 3166,
+    "single_aspect": 1890,
+    "multi_aspect": 1276,
+    "conflicting_polarity": 380,
+    "contrast_word": 129
+  },
+  "train_support": {
+    "ky_nang_giang_day": 4548,
+    "hanh_vi": 4479,
+    "de_xuat": 2044,
+    "bai_tap": 1241,
+    "chuong_trinh_hoc": 990,
+    "kien_thuc": 867,
+    "kinh_nghiem": 652,
+    "cung_cap_tai_lieu": 646,
+    "thiet_bi_day_hoc": 564,
+    "cham_diem": 314,
+    "noi_chung": 575
+  },
+  "models": {
+    "e1_bilstm-cnn": {
+      "group_pair_f1": {
+        "all": 0.7202084732174788,
+        "single_aspect": 0.709233222216736,
+        "multi_aspect": 0.7286225786556559,
+        "conflicting_polarity": 0.6540771800895646,
+        "contrast_word": 0.5393970489202511
+      },
+      "polarity": {
+        "negative": {
+          "pairs": 1629.0,
+          "pair_recall": 0.6742377736852876,
+          "sentiment_acc_on_gold": 0.8786576631880498
+        },
+        "neutral": {
+          "pairs": 697.0,
+          "pair_recall": 0.5772357723577236,
+          "sentiment_acc_on_gold": 0.6953610712577714
+        },
+        "positive": {
+          "pairs": 2344.0,
+          "pair_recall": 0.8188282138794084,
+          "sentiment_acc_on_gold": 0.904721274175199
+        }
+      },
+      "aspect_errors_mean": {
+        "ky_nang_giang_day": {
+          "support": 1314.0,
+          "false_positive": 177.0,
+          "missed": 193.0,
+          "wrong_sentiment": 73.0
+        },
+        "hanh_vi": {
+          "support": 1209.0,
+          "false_positive": 149.66666666666666,
+          "missed": 139.33333333333334,
+          "wrong_sentiment": 29.666666666666668
+        },
+        "de_xuat": {
+          "support": 549.0,
+          "false_positive": 60.666666666666664,
+          "missed": 60.0,
+          "wrong_sentiment": 153.33333333333334
+        },
+        "bai_tap": {
+          "support": 330.0,
+          "false_positive": 83.66666666666667,
+          "missed": 48.0,
+          "wrong_sentiment": 53.333333333333336
+        },
+        "chuong_trinh_hoc": {
+          "support": 272.0,
+          "false_positive": 124.33333333333333,
+          "missed": 95.66666666666667,
+          "wrong_sentiment": 36.666666666666664
+        },
+        "kien_thuc": {
+          "support": 238.0,
+          "false_positive": 96.0,
+          "missed": 60.0,
+          "wrong_sentiment": 15.0
+        },
+        "kinh_nghiem": {
+          "support": 162.0,
+          "false_positive": 87.0,
+          "missed": 48.333333333333336,
+          "wrong_sentiment": 12.0
+        },
+        "cung_cap_tai_lieu": {
+          "support": 163.0,
+          "false_positive": 35.666666666666664,
+          "missed": 31.333333333333332,
+          "wrong_sentiment": 23.333333333333332
+        },
+        "thiet_bi_day_hoc": {
+          "support": 165.0,
+          "false_positive": 22.0,
+          "missed": 19.333333333333332,
+          "wrong_sentiment": 16.666666666666668
+        },
+        "cham_diem": {
+          "support": 92.0,
+          "false_positive": 25.333333333333332,
+          "missed": 25.666666666666668,
+          "wrong_sentiment": 13.0
+        },
+        "noi_chung": {
+          "support": 176.0,
+          "false_positive": 77.33333333333333,
+          "missed": 60.666666666666664,
+          "wrong_sentiment": 42.666666666666664
+        }
+      }
+    },
+    "e2_phobert": {
+      "group_pair_f1": {
+        "all": 0.7932595721959844,
+        "single_aspect": 0.8233793190943017,
+        "multi_aspect": 0.770536283586493,
+        "conflicting_polarity": 0.7228992945240492,
+        "contrast_word": 0.656727585544188
+      },
+      "polarity": {
+        "negative": {
+          "pairs": 1629.0,
+          "pair_recall": 0.720073664825046,
+          "sentiment_acc_on_gold": 0.9116022099447513
+        },
+        "neutral": {
+          "pairs": 697.0,
+          "pair_recall": 0.6905786704925873,
+          "sentiment_acc_on_gold": 0.8039215686274511
+        },
+        "positive": {
+          "pairs": 2344.0,
+          "pair_recall": 0.8459897610921502,
+          "sentiment_acc_on_gold": 0.9338737201365189
+        }
+      },
+      "aspect_errors_mean": {
+        "ky_nang_giang_day": {
+          "support": 1314.0,
+          "false_positive": 93.0,
+          "missed": 191.0,
+          "wrong_sentiment": 32.666666666666664
+        },
+        "hanh_vi": {
+          "support": 1209.0,
+          "false_positive": 76.33333333333333,
+          "missed": 123.0,
+          "wrong_sentiment": 10.666666666666666
+        },
+        "de_xuat": {
+          "support": 549.0,
+          "false_positive": 38.0,
+          "missed": 36.333333333333336,
+          "wrong_sentiment": 156.0
+        },
+        "bai_tap": {
+          "support": 330.0,
+          "false_positive": 46.333333333333336,
+          "missed": 50.333333333333336,
+          "wrong_sentiment": 41.0
+        },
+        "chuong_trinh_hoc": {
+          "support": 272.0,
+          "false_positive": 57.666666666666664,
+          "missed": 93.0,
+          "wrong_sentiment": 24.0
+        },
+        "kien_thuc": {
+          "support": 238.0,
+          "false_positive": 50.666666666666664,
+          "missed": 66.66666666666667,
+          "wrong_sentiment": 8.0
+        },
+        "kinh_nghiem": {
+          "support": 162.0,
+          "false_positive": 58.0,
+          "missed": 34.666666666666664,
+          "wrong_sentiment": 12.333333333333334
+        },
+        "cung_cap_tai_lieu": {
+          "support": 163.0,
+          "false_positive": 31.666666666666668,
+          "missed": 23.666666666666668,
+          "wrong_sentiment": 19.666666666666668
+        },
+        "thiet_bi_day_hoc": {
+          "support": 165.0,
+          "false_positive": 8.666666666666666,
+          "missed": 7.0,
+          "wrong_sentiment": 14.333333333333334
+        },
+        "cham_diem": {
+          "support": 92.0,
+          "false_positive": 20.666666666666668,
+          "missed": 15.333333333333334,
+          "wrong_sentiment": 6.333333333333333
+        },
+        "noi_chung": {
+          "support": 176.0,
+          "false_positive": 39.333333333333336,
+          "missed": 48.666666666666664,
+          "wrong_sentiment": 18.0
+        }
+      }
+    },
+    "e5_phobert": {
+      "group_pair_f1": {
+        "all": 0.7980340333053375,
+        "single_aspect": 0.8164604566098664,
+        "multi_aspect": 0.7842899755897154,
+        "conflicting_polarity": 0.7223993220933979,
+        "contrast_word": 0.6892852765878966
+      },
+      "polarity": {
+        "negative": {
+          "pairs": 1629.0,
+          "pair_recall": 0.7652956824227543,
+          "sentiment_acc_on_gold": 0.9167178227951709
+        },
+        "neutral": {
+          "pairs": 697.0,
+          "pair_recall": 0.7106647537063607,
+          "sentiment_acc_on_gold": 0.7862266857962696
+        },
+        "positive": {
+          "pairs": 2344.0,
+          "pair_recall": 0.8587883959044369,
+          "sentiment_acc_on_gold": 0.9365756541524459
+        }
+      },
+      "aspect_errors_mean": {
+        "ky_nang_giang_day": {
+          "support": 1314.0,
+          "false_positive": 106.0,
+          "missed": 146.0,
+          "wrong_sentiment": 37.666666666666664
+        },
+        "hanh_vi": {
+          "support": 1209.0,
+          "false_positive": 79.33333333333333,
+          "missed": 97.66666666666667,
+          "wrong_sentiment": 12.333333333333334
+        },
+        "de_xuat": {
+          "support": 549.0,
+          "false_positive": 38.666666666666664,
+          "missed": 27.0,
+          "wrong_sentiment": 164.0
+        },
+        "bai_tap": {
+          "support": 330.0,
+          "false_positive": 59.666666666666664,
+          "missed": 40.0,
+          "wrong_sentiment": 38.333333333333336
+        },
+        "chuong_trinh_hoc": {
+          "support": 272.0,
+          "false_positive": 90.0,
+          "missed": 75.66666666666667,
+          "wrong_sentiment": 24.333333333333332
+        },
+        "kien_thuc": {
+          "support": 238.0,
+          "false_positive": 69.0,
+          "missed": 54.666666666666664,
+          "wrong_sentiment": 8.666666666666666
+        },
+        "kinh_nghiem": {
+          "support": 162.0,
+          "false_positive": 67.66666666666667,
+          "missed": 29.333333333333332,
+          "wrong_sentiment": 13.0
+        },
+        "cung_cap_tai_lieu": {
+          "support": 163.0,
+          "false_positive": 30.333333333333332,
+          "missed": 17.333333333333332,
+          "wrong_sentiment": 23.666666666666668
+        },
+        "thiet_bi_day_hoc": {
+          "support": 165.0,
+          "false_positive": 10.666666666666666,
+          "missed": 4.333333333333333,
+          "wrong_sentiment": 14.333333333333334
+        },
+        "cham_diem": {
+          "support": 92.0,
+          "false_positive": 27.0,
+          "missed": 14.666666666666666,
+          "wrong_sentiment": 6.333333333333333
+        },
+        "noi_chung": {
+          "support": 176.0,
+          "false_positive": 41.333333333333336,
+          "missed": 42.333333333333336,
+          "wrong_sentiment": 23.333333333333332
+        }
+      }
+    }
+  },
+  "disagreement_counts": {
+    "e5_right_e2_wrong": 37,
+    "e2_right_e5_wrong": 26
+  },
+  "examples": {
+    "e5_right_e2_wrong": [
+      {
+        "uid": "test:431",
+        "gold": [
+          "hanh_vi:positive",
+          "chuong_trinh_hoc:positive"
+        ],
+        "e2_phobert_seed42": [
+          "chuong_trinh_hoc:positive"
+        ]
+      },
+      {
+        "uid": "test:1750",
+        "gold": [
+          "de_xuat:negative",
+          "thiet_bi_day_hoc:negative"
+        ],
+        "e2_phobert_seed42": [
+          "de_xuat:neutral",
+          "thiet_bi_day_hoc:negative"
+        ]
+      },
+      {
+        "uid": "test:2355",
+        "gold": [
+          "ky_nang_giang_day:neutral",
+          "de_xuat:neutral"
+        ],
+        "e2_phobert_seed42": [
+          "de_xuat:neutral"
+        ]
+      },
+      {
+        "uid": "test:2571",
+        "gold": [
+          "ky_nang_giang_day:neutral"
+        ],
+        "e2_phobert_seed42": []
+      }
+    ],
+    "e2_right_e5_wrong": [
+      {
+        "uid": "test:315",
+        "gold": [
+          "hanh_vi:positive"
+        ],
+        "e5_phobert_seed42": [
+          "ky_nang_giang_day:positive",
+          "hanh_vi:positive"
+        ]
+      },
+      {
+        "uid": "test:1759",
+        "gold": [
+          "ky_nang_giang_day:negative"
+        ],
+        "e5_phobert_seed42": [
+          "ky_nang_giang_day:negative",
+          "kien_thuc:negative"
+        ]
+      },
+      {
+        "uid": "test:1929",
+        "gold": [
+          "hanh_vi:negative"
+        ],
+        "e5_phobert_seed42": [
+          "hanh_vi:negative",
+          "chuong_trinh_hoc:negative"
+        ]
+      },
+      {
+        "uid": "test:3088",
+        "gold": [
+          "ky_nang_giang_day:positive"
+        ],
+        "e5_phobert_seed42": [
+          "ky_nang_giang_day:positive",
+          "kien_thuc:positive"
+        ]
+      }
+    ]
+  }
+}

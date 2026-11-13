@@ -1,0 +1,483 @@
+{
+ "routed_sentences": 132,
+ "sol_ok": 132,
+ "t4_ok": 75,
+ "votes_ok": {
+  "cx/gpt-6-luna": 300,
+  "cx/gpt-5.6-luna": 299,
+  "cx/gpt-5.6-terra": 300
+ },
+ "coverage_3300": {
+  "unanimous": 1848,
+  "sol_resolved": 1335,
+  "tiebreak_resolved": 45,
+  "unresolved": 72
+ },
+ "n_cells": 433,
+ "policy_cells": 36,
+ "sugg_only_sentences": 46,
+ "7e5": {
+  "exact_all": [
+   65.4,
+   60.8,
+   69.7
+  ],
+  "exact_excl": [
+   71.0,
+   66.4,
+   75.3
+  ],
+  "det_all": [
+   78.8,
+   74.7,
+   82.3
+  ],
+  "det_excl": [
+   78.3,
+   74.0,
+   82.1
+  ],
+  "pgd_all": [
+   83.0,
+   78.6,
+   86.6
+  ],
+  "pgd_excl": [
+   90.7,
+   86.9,
+   93.4
+  ],
+  "cov_ref": [
+   93.1,
+   90.3,
+   95.1
+  ],
+  "resolved_only_all": [
+   70.2,
+   65.6,
+   74.5
+  ],
+  "resolved_only_excl": [
+   76.6,
+   72.0,
+   80.7
+  ],
+  "per_stage": {
+   "unanimous": [
+    230,
+    [
+     79.1,
+     73.4,
+     83.9
+    ]
+   ],
+   "sol_resolved": [
+    154,
+    [
+     59.1,
+     51.2,
+     66.5
+    ]
+   ],
+   "tiebreak_resolved": [
+    19,
+    [
+     52.6,
+     31.7,
+     72.7
+    ]
+   ],
+   "unresolved": [
+    30,
+    [
+     0.0,
+     0,
+     11.4
+    ]
+   ]
+  },
+  "per_note": {
+   "checked": [
+    76.6,
+    70.3,
+    81.9
+   ],
+   "kept_ai": [
+    55.3,
+    48.8,
+    61.6
+   ]
+  },
+  "per_aspect": {
+   "ky_nang_giang_day": [
+    141,
+    [
+     78.0,
+     70.5,
+     84.1
+    ],
+    [
+     87.2,
+     80.7,
+     91.8
+    ]
+   ],
+   "hanh_vi": [
+    51,
+    [
+     86.3,
+     74.3,
+     93.2
+    ],
+    [
+     86.3,
+     74.3,
+     93.2
+    ]
+   ],
+   "de_xuat": [
+    53,
+    [
+     75.5,
+     62.4,
+     85.1
+    ],
+    [
+     96.2,
+     87.2,
+     99.0
+    ]
+   ],
+   "bai_tap": [
+    32,
+    [
+     59.4,
+     42.3,
+     74.5
+    ],
+    [
+     93.8,
+     79.9,
+     98.3
+    ]
+   ],
+   "chuong_trinh_hoc": [
+    26,
+    [
+     46.2,
+     28.8,
+     64.5
+    ],
+    [
+     61.5,
+     42.5,
+     77.6
+    ]
+   ],
+   "kien_thuc": [
+    27,
+    [
+     33.3,
+     18.6,
+     52.2
+    ],
+    [
+     40.7,
+     24.5,
+     59.3
+    ]
+   ],
+   "kinh_nghiem": [
+    22,
+    [
+     31.8,
+     16.4,
+     52.7
+    ],
+    [
+     36.4,
+     19.7,
+     57.0
+    ]
+   ],
+   "cung_cap_tai_lieu": [
+    20,
+    [
+     55.0,
+     34.2,
+     74.2
+    ],
+    [
+     85.0,
+     64.0,
+     94.8
+    ]
+   ],
+   "thiet_bi_day_hoc": [
+    21,
+    [
+     61.9,
+     40.9,
+     79.2
+    ],
+    [
+     90.5,
+     71.1,
+     97.3
+    ]
+   ],
+   "cham_diem": [
+    20,
+    [
+     55.0,
+     34.2,
+     74.2
+    ],
+    [
+     65.0,
+     43.3,
+     81.9
+    ]
+   ],
+   "noi_chung": [
+    20,
+    [
+     35.0,
+     18.1,
+     56.7
+    ],
+    [
+     45.0,
+     25.8,
+     65.8
+    ]
+   ]
+  },
+  "per_aspect_excl": {
+   "ky_nang_giang_day": [
+    84.0,
+    76.7,
+    89.3
+   ],
+   "hanh_vi": [
+    87.8,
+    75.8,
+    94.3
+   ],
+   "de_xuat": [
+    85.1,
+    72.3,
+    92.6
+   ],
+   "bai_tap": [
+    67.9,
+    49.3,
+    82.1
+   ],
+   "chuong_trinh_hoc": [
+    57.1,
+    36.5,
+    75.5
+   ],
+   "kien_thuc": [
+    34.6,
+    19.4,
+    53.8
+   ],
+   "kinh_nghiem": [
+    33.3,
+    17.2,
+    54.6
+   ],
+   "cung_cap_tai_lieu": [
+    64.7,
+    41.3,
+    82.7
+   ],
+   "thiet_bi_day_hoc": [
+    72.2,
+    49.1,
+    87.5
+   ],
+   "cham_diem": [
+    57.9,
+    36.3,
+    76.9
+   ],
+   "noi_chung": [
+    35.0,
+    18.1,
+    56.7
+   ]
+  },
+  "voter_vs_human_all": {
+   "cx/gpt-6-luna": [
+    65.6,
+    61.0,
+    69.9
+   ],
+   "cx/gpt-5.6-luna": [
+    67.2,
+    62.6,
+    71.5
+   ],
+   "cx/gpt-5.6-terra": [
+    66.1,
+    61.5,
+    70.4
+   ]
+  },
+  "voter_vs_human_excl": {
+   "cx/gpt-6-luna": [
+    71.3,
+    66.6,
+    75.5
+   ],
+   "cx/gpt-5.6-luna": [
+    73.0,
+    68.5,
+    77.2
+   ],
+   "cx/gpt-5.6-terra": [
+    71.5,
+    66.9,
+    75.8
+   ]
+  },
+  "confusion": {
+   "negative->neutral": 43,
+   "neutral->neutral": 57,
+   "positive->absent": 18,
+   "positive->neutral": 12,
+   "positive->positive": 142,
+   "negative->negative": 84,
+   "negative->absent": 33,
+   "negative->unresolved": 11,
+   "positive->unresolved": 10,
+   "neutral->absent": 9,
+   "neutral->unresolved": 9,
+   "positive->ambiguous": 2,
+   "neutral->positive": 2,
+   "positive->negative": 1
+  },
+  "present_no_human": 108
+ },
+ "7e6": {
+  "exact_all": [
+   72.3,
+   67.9,
+   76.3
+  ],
+  "exact_excl": [
+   78.3,
+   74.0,
+   82.1
+  ],
+  "det_all": [
+   85.7,
+   82.1,
+   88.7
+  ],
+  "det_excl": [
+   85.6,
+   81.9,
+   88.8
+  ],
+  "pgd_all": [
+   84.4,
+   80.3,
+   87.7
+  ],
+  "pgd_excl": [
+   91.5,
+   88.0,
+   94.0
+  ],
+  "cov_ref": [
+   100.0,
+   99.1,
+   100
+  ],
+  "fallback_labels": {
+   "absent": 42,
+   "negative": 11,
+   "positive": 10,
+   "neutral": 9
+  },
+  "fallback_on_ref": [
+   30,
+   [
+    100.0,
+    88.6,
+    100
+   ]
+  ],
+  "old_release_vs_human_all433": [
+   99.8,
+   98.7,
+   100.0
+  ]
+ },
+ "consensus": {
+  "cx/gpt-6-luna": [
+   3228,
+   [
+    98.1,
+    97.5,
+    98.5
+   ]
+  ],
+  "cx/gpt-5.6-luna": [
+   3228,
+   [
+    97.6,
+    97.0,
+    98.1
+   ]
+  ],
+  "cx/gpt-5.6-terra": [
+   3228,
+   [
+    97.0,
+    96.4,
+    97.6
+   ]
+  ],
+  "sol": [
+   98.0,
+   97.2,
+   98.7
+  ],
+  "t4": [
+   90.0,
+   87.7,
+   92.0
+  ]
+ },
+ "consensus_present": {
+  "cx/gpt-6-luna": [
+   449,
+   [
+    94.0,
+    91.4,
+    95.8
+   ]
+  ],
+  "cx/gpt-5.6-luna": [
+   449,
+   [
+    96.0,
+    93.7,
+    97.4
+   ]
+  ],
+  "cx/gpt-5.6-terra": [
+   449,
+   [
+    94.7,
+    92.2,
+    96.4
+   ]
+  ]
+ }
+}

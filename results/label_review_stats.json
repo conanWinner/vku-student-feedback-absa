@@ -1,0 +1,84 @@
+{
+ "source": "MongoDB labeling_db (labeling-system-SA), read 2026-11-03, read-only",
+ "per_collection": {
+  "test_final": {
+   "pairs": 4664,
+   "reviewed": 238,
+   "kept": 235,
+   "kept_via_copy_button": 39,
+   "changed": 3,
+   "changed_csv_ids": [
+    "103",
+    "41"
+   ]
+  },
+  "train_1_final": {
+   "pairs": 3086,
+   "reviewed": 764,
+   "kept": 764,
+   "kept_via_copy_button": 5,
+   "changed": 0,
+   "changed_csv_ids": []
+  },
+  "train_2_final": {
+   "pairs": 2945,
+   "reviewed": 238,
+   "kept": 238,
+   "kept_via_copy_button": 238,
+   "changed": 0,
+   "changed_csv_ids": []
+  },
+  "train_3_final": {
+   "pairs": 2962,
+   "reviewed": 240,
+   "kept": 240,
+   "kept_via_copy_button": 240,
+   "changed": 0,
+   "changed_csv_ids": []
+  },
+  "train_4_final": {
+   "pairs": 2895,
+   "reviewed": 221,
+   "kept": 221,
+   "kept_via_copy_button": 221,
+   "changed": 0,
+   "changed_csv_ids": []
+  },
+  "train_5_final": {
+   "pairs": 2896,
+   "reviewed": 240,
+   "kept": 240,
+   "kept_via_copy_button": 240,
+   "changed": 0,
+   "changed_csv_ids": []
+  },
+  "train_6_final": {
+   "pairs": 2099,
+   "reviewed": 242,
+   "kept": 241,
+   "kept_via_copy_button": 241,
+   "changed": 1,
+   "changed_csv_ids": [
+    "2"
+   ]
+  },
+  "validation_final": {
+   "pairs": 2312,
+   "reviewed": 220,
+   "kept": 220,
+   "kept_via_copy_button": 220,
+   "changed": 0,
+   "changed_csv_ids": []
+  }
+ },
+ "total": {
+  "pairs": 23859,
+  "reviewed": 2403,
+  "kept": 2399,
+  "kept_via_copy_button": 1444,
+  "changed": 4,
+  "reviewed_share": 0.1007,
+  "kept_share": 0.9983
+ },
+ "note": "Reviewers saw LLM labels; reviewed rows are the first ids of each file, not a random sample. The 4 changed pairs were not applied to data/Final_Data."
+}

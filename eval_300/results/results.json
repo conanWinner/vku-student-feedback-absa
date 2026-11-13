@@ -1,0 +1,1603 @@
+{
+ "spec_sha": "d9f76dd03248998d1bbf4c5476c57d0d46823c71f460b945001bcd33f8c3dd2c",
+ "addendum_sha": "5ff85c810cf9bb6eac3b81376e544160c6b04b04bf80faf6f62397f52bdfae29",
+ "NOT_GOLD_reference_is_human_verified_AI_anchored": true,
+ "n_cells": 433,
+ "dropped_conflicting_cells": 0,
+ "policy_cells": 36,
+ "sentences_suggestion_only": 46,
+ "a_all": {
+  "main": {
+   "n": 433,
+   "aspect_recall": [
+    78.8,
+    74.7,
+    82.3
+   ],
+   "polarity_acc_given_detection": [
+    83.0,
+    78.6,
+    86.6
+   ],
+   "exact_match": [
+    65.4,
+    60.8,
+    69.7
+   ],
+   "n_detected": 341,
+   "n_exact": 283
+  },
+  "coverage_conditional": {
+   "n": 403,
+   "aspect_recall": [
+    84.6,
+    80.8,
+    87.8
+   ],
+   "polarity_acc_given_detection": [
+    83.0,
+    78.6,
+    86.6
+   ],
+   "exact_match": [
+    70.2,
+    65.6,
+    74.5
+   ],
+   "n_detected": 341,
+   "n_exact": 283
+  },
+  "coverage": [
+   93.1,
+   90.3,
+   95.1
+  ]
+ },
+ "b_excl_policy": {
+  "main": {
+   "n": 397,
+   "aspect_recall": [
+    78.3,
+    74.0,
+    82.1
+   ],
+   "polarity_acc_given_detection": [
+    90.7,
+    86.9,
+    93.4
+   ],
+   "exact_match": [
+    71.0,
+    66.4,
+    75.3
+   ],
+   "n_detected": 311,
+   "n_exact": 282
+  },
+  "coverage_conditional": {
+   "n": 368,
+   "aspect_recall": [
+    84.5,
+    80.5,
+    87.8
+   ],
+   "polarity_acc_given_detection": [
+    90.7,
+    86.9,
+    93.4
+   ],
+   "exact_match": [
+    76.6,
+    72.0,
+    80.7
+   ],
+   "n_detected": 311,
+   "n_exact": 282
+  },
+  "coverage": [
+   92.7,
+   89.7,
+   94.9
+  ]
+ },
+ "per_aspect_all": {
+  "ky_nang_giang_day": {
+   "main": {
+    "n": 141,
+    "aspect_recall": [
+     87.2,
+     80.7,
+     91.8
+    ],
+    "polarity_acc_given_detection": [
+     89.4,
+     82.8,
+     93.7
+    ],
+    "exact_match": [
+     78.0,
+     70.5,
+     84.1
+    ],
+    "n_detected": 123,
+    "n_exact": 110
+   },
+   "coverage_conditional": {
+    "n": 134,
+    "aspect_recall": [
+     91.8,
+     85.9,
+     95.4
+    ],
+    "polarity_acc_given_detection": [
+     89.4,
+     82.8,
+     93.7
+    ],
+    "exact_match": [
+     82.1,
+     74.7,
+     87.7
+    ],
+    "n_detected": 123,
+    "n_exact": 110
+   },
+   "coverage": [
+    95.0,
+    90.1,
+    97.6
+   ]
+  },
+  "hanh_vi": {
+   "main": {
+    "n": 51,
+    "aspect_recall": [
+     86.3,
+     74.3,
+     93.2
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.0,
+     100.0
+    ],
+    "exact_match": [
+     86.3,
+     74.3,
+     93.2
+    ],
+    "n_detected": 44,
+    "n_exact": 44
+   },
+   "coverage_conditional": {
+    "n": 49,
+    "aspect_recall": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     92.0,
+     100.0
+    ],
+    "exact_match": [
+     89.8,
+     78.2,
+     95.6
+    ],
+    "n_detected": 44,
+    "n_exact": 44
+   },
+   "coverage": [
+    96.1,
+    86.8,
+    98.9
+   ]
+  },
+  "de_xuat": {
+   "main": {
+    "n": 53,
+    "aspect_recall": [
+     96.2,
+     87.2,
+     99.0
+    ],
+    "polarity_acc_given_detection": [
+     78.4,
+     65.4,
+     87.5
+    ],
+    "exact_match": [
+     75.5,
+     62.4,
+     85.1
+    ],
+    "n_detected": 51,
+    "n_exact": 40
+   },
+   "coverage_conditional": {
+    "n": 52,
+    "aspect_recall": [
+     98.1,
+     89.9,
+     99.7
+    ],
+    "polarity_acc_given_detection": [
+     78.4,
+     65.4,
+     87.5
+    ],
+    "exact_match": [
+     76.9,
+     63.9,
+     86.3
+    ],
+    "n_detected": 51,
+    "n_exact": 40
+   },
+   "coverage": [
+    98.1,
+    90.1,
+    99.7
+   ]
+  },
+  "bai_tap": {
+   "main": {
+    "n": 32,
+    "aspect_recall": [
+     93.8,
+     79.9,
+     98.3
+    ],
+    "polarity_acc_given_detection": [
+     63.3,
+     45.5,
+     78.1
+    ],
+    "exact_match": [
+     59.4,
+     42.3,
+     74.5
+    ],
+    "n_detected": 30,
+    "n_exact": 19
+   },
+   "coverage_conditional": {
+    "n": 31,
+    "aspect_recall": [
+     96.8,
+     83.8,
+     99.4
+    ],
+    "polarity_acc_given_detection": [
+     63.3,
+     45.5,
+     78.1
+    ],
+    "exact_match": [
+     61.3,
+     43.8,
+     76.3
+    ],
+    "n_detected": 30,
+    "n_exact": 19
+   },
+   "coverage": [
+    96.9,
+    84.3,
+    99.4
+   ]
+  },
+  "chuong_trinh_hoc": {
+   "main": {
+    "n": 26,
+    "aspect_recall": [
+     61.5,
+     42.5,
+     77.6
+    ],
+    "polarity_acc_given_detection": [
+     75.0,
+     50.5,
+     89.8
+    ],
+    "exact_match": [
+     46.2,
+     28.8,
+     64.5
+    ],
+    "n_detected": 16,
+    "n_exact": 12
+   },
+   "coverage_conditional": {
+    "n": 24,
+    "aspect_recall": [
+     66.7,
+     46.7,
+     82.0
+    ],
+    "polarity_acc_given_detection": [
+     75.0,
+     50.5,
+     89.8
+    ],
+    "exact_match": [
+     50.0,
+     31.4,
+     68.6
+    ],
+    "n_detected": 16,
+    "n_exact": 12
+   },
+   "coverage": [
+    92.3,
+    75.9,
+    97.9
+   ]
+  },
+  "kien_thuc": {
+   "main": {
+    "n": 27,
+    "aspect_recall": [
+     40.7,
+     24.5,
+     59.3
+    ],
+    "polarity_acc_given_detection": [
+     81.8,
+     52.3,
+     94.9
+    ],
+    "exact_match": [
+     33.3,
+     18.6,
+     52.2
+    ],
+    "n_detected": 11,
+    "n_exact": 9
+   },
+   "coverage_conditional": {
+    "n": 25,
+    "aspect_recall": [
+     44.0,
+     26.7,
+     62.9
+    ],
+    "polarity_acc_given_detection": [
+     81.8,
+     52.3,
+     94.9
+    ],
+    "exact_match": [
+     36.0,
+     20.2,
+     55.5
+    ],
+    "n_detected": 11,
+    "n_exact": 9
+   },
+   "coverage": [
+    92.6,
+    76.6,
+    97.9
+   ]
+  },
+  "kinh_nghiem": {
+   "main": {
+    "n": 22,
+    "aspect_recall": [
+     36.4,
+     19.7,
+     57.0
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     52.9,
+     97.8
+    ],
+    "exact_match": [
+     31.8,
+     16.4,
+     52.7
+    ],
+    "n_detected": 8,
+    "n_exact": 7
+   },
+   "coverage_conditional": {
+    "n": 20,
+    "aspect_recall": [
+     40.0,
+     21.9,
+     61.3
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     52.9,
+     97.8
+    ],
+    "exact_match": [
+     35.0,
+     18.1,
+     56.7
+    ],
+    "n_detected": 8,
+    "n_exact": 7
+   },
+   "coverage": [
+    90.9,
+    72.2,
+    97.5
+   ]
+  },
+  "cung_cap_tai_lieu": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     85.0,
+     64.0,
+     94.8
+    ],
+    "polarity_acc_given_detection": [
+     64.7,
+     41.3,
+     82.7
+    ],
+    "exact_match": [
+     55.0,
+     34.2,
+     74.2
+    ],
+    "n_detected": 17,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 19,
+    "aspect_recall": [
+     89.5,
+     68.6,
+     97.1
+    ],
+    "polarity_acc_given_detection": [
+     64.7,
+     41.3,
+     82.7
+    ],
+    "exact_match": [
+     57.9,
+     36.3,
+     76.9
+    ],
+    "n_detected": 17,
+    "n_exact": 11
+   },
+   "coverage": [
+    95.0,
+    76.4,
+    99.1
+   ]
+  },
+  "thiet_bi_day_hoc": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     90.5,
+     71.1,
+     97.3
+    ],
+    "polarity_acc_given_detection": [
+     68.4,
+     46.0,
+     84.6
+    ],
+    "exact_match": [
+     61.9,
+     40.9,
+     79.2
+    ],
+    "n_detected": 19,
+    "n_exact": 13
+   },
+   "coverage_conditional": {
+    "n": 21,
+    "aspect_recall": [
+     90.5,
+     71.1,
+     97.3
+    ],
+    "polarity_acc_given_detection": [
+     68.4,
+     46.0,
+     84.6
+    ],
+    "exact_match": [
+     61.9,
+     40.9,
+     79.2
+    ],
+    "n_detected": 19,
+    "n_exact": 13
+   },
+   "coverage": [
+    100.0,
+    84.5,
+    100.0
+   ]
+  },
+  "cham_diem": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     65.0,
+     43.3,
+     81.9
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     55.0,
+     34.2,
+     74.2
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 15,
+    "aspect_recall": [
+     86.7,
+     62.1,
+     96.3
+    ],
+    "polarity_acc_given_detection": [
+     84.6,
+     57.8,
+     95.7
+    ],
+    "exact_match": [
+     73.3,
+     48.0,
+     89.1
+    ],
+    "n_detected": 13,
+    "n_exact": 11
+   },
+   "coverage": [
+    75.0,
+    53.1,
+    88.8
+   ]
+  },
+  "noi_chung": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     45.0,
+     25.8,
+     65.8
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     45.3,
+     93.7
+    ],
+    "exact_match": [
+     35.0,
+     18.1,
+     56.7
+    ],
+    "n_detected": 9,
+    "n_exact": 7
+   },
+   "coverage_conditional": {
+    "n": 13,
+    "aspect_recall": [
+     69.2,
+     42.4,
+     87.3
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     45.3,
+     93.7
+    ],
+    "exact_match": [
+     53.8,
+     29.1,
+     76.8
+    ],
+    "n_detected": 9,
+    "n_exact": 7
+   },
+   "coverage": [
+    65.0,
+    43.3,
+    81.9
+   ]
+  }
+ },
+ "per_aspect_excl": {
+  "ky_nang_giang_day": {
+   "main": {
+    "n": 131,
+    "aspect_recall": [
+     87.0,
+     80.2,
+     91.7
+    ],
+    "polarity_acc_given_detection": [
+     96.5,
+     91.3,
+     98.6
+    ],
+    "exact_match": [
+     84.0,
+     76.7,
+     89.3
+    ],
+    "n_detected": 114,
+    "n_exact": 110
+   },
+   "coverage_conditional": {
+    "n": 124,
+    "aspect_recall": [
+     91.9,
+     85.8,
+     95.6
+    ],
+    "polarity_acc_given_detection": [
+     96.5,
+     91.3,
+     98.6
+    ],
+    "exact_match": [
+     88.7,
+     81.9,
+     93.2
+    ],
+    "n_detected": 114,
+    "n_exact": 110
+   },
+   "coverage": [
+    94.7,
+    89.4,
+    97.4
+   ]
+  },
+  "hanh_vi": {
+   "main": {
+    "n": 49,
+    "aspect_recall": [
+     87.8,
+     75.8,
+     94.3
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     91.8,
+     100.0
+    ],
+    "exact_match": [
+     87.8,
+     75.8,
+     94.3
+    ],
+    "n_detected": 43,
+    "n_exact": 43
+   },
+   "coverage_conditional": {
+    "n": 48,
+    "aspect_recall": [
+     89.6,
+     77.8,
+     95.5
+    ],
+    "polarity_acc_given_detection": [
+     100.0,
+     91.8,
+     100.0
+    ],
+    "exact_match": [
+     89.6,
+     77.8,
+     95.5
+    ],
+    "n_detected": 43,
+    "n_exact": 43
+   },
+   "coverage": [
+    98.0,
+    89.3,
+    99.6
+   ]
+  },
+  "de_xuat": {
+   "main": {
+    "n": 47,
+    "aspect_recall": [
+     95.7,
+     85.8,
+     98.8
+    ],
+    "polarity_acc_given_detection": [
+     88.9,
+     76.5,
+     95.2
+    ],
+    "exact_match": [
+     85.1,
+     72.3,
+     92.6
+    ],
+    "n_detected": 45,
+    "n_exact": 40
+   },
+   "coverage_conditional": {
+    "n": 46,
+    "aspect_recall": [
+     97.8,
+     88.7,
+     99.6
+    ],
+    "polarity_acc_given_detection": [
+     88.9,
+     76.5,
+     95.2
+    ],
+    "exact_match": [
+     87.0,
+     74.3,
+     93.9
+    ],
+    "n_detected": 45,
+    "n_exact": 40
+   },
+   "coverage": [
+    97.9,
+    88.9,
+    99.6
+   ]
+  },
+  "bai_tap": {
+   "main": {
+    "n": 28,
+    "aspect_recall": [
+     92.9,
+     77.4,
+     98.0
+    ],
+    "polarity_acc_given_detection": [
+     73.1,
+     53.9,
+     86.3
+    ],
+    "exact_match": [
+     67.9,
+     49.3,
+     82.1
+    ],
+    "n_detected": 26,
+    "n_exact": 19
+   },
+   "coverage_conditional": {
+    "n": 27,
+    "aspect_recall": [
+     96.3,
+     81.7,
+     99.3
+    ],
+    "polarity_acc_given_detection": [
+     73.1,
+     53.9,
+     86.3
+    ],
+    "exact_match": [
+     70.4,
+     51.5,
+     84.1
+    ],
+    "n_detected": 26,
+    "n_exact": 19
+   },
+   "coverage": [
+    96.4,
+    82.3,
+    99.4
+   ]
+  },
+  "chuong_trinh_hoc": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     61.9,
+     40.9,
+     79.2
+    ],
+    "polarity_acc_given_detection": [
+     92.3,
+     66.7,
+     98.6
+    ],
+    "exact_match": [
+     57.1,
+     36.5,
+     75.5
+    ],
+    "n_detected": 13,
+    "n_exact": 12
+   },
+   "coverage_conditional": {
+    "n": 19,
+    "aspect_recall": [
+     68.4,
+     46.0,
+     84.6
+    ],
+    "polarity_acc_given_detection": [
+     92.3,
+     66.7,
+     98.6
+    ],
+    "exact_match": [
+     63.2,
+     41.0,
+     80.9
+    ],
+    "n_detected": 13,
+    "n_exact": 12
+   },
+   "coverage": [
+    90.5,
+    71.1,
+    97.3
+   ]
+  },
+  "kien_thuc": {
+   "main": {
+    "n": 26,
+    "aspect_recall": [
+     42.3,
+     25.5,
+     61.1
+    ],
+    "polarity_acc_given_detection": [
+     81.8,
+     52.3,
+     94.9
+    ],
+    "exact_match": [
+     34.6,
+     19.4,
+     53.8
+    ],
+    "n_detected": 11,
+    "n_exact": 9
+   },
+   "coverage_conditional": {
+    "n": 24,
+    "aspect_recall": [
+     45.8,
+     27.9,
+     64.9
+    ],
+    "polarity_acc_given_detection": [
+     81.8,
+     52.3,
+     94.9
+    ],
+    "exact_match": [
+     37.5,
+     21.2,
+     57.3
+    ],
+    "n_detected": 11,
+    "n_exact": 9
+   },
+   "coverage": [
+    92.3,
+    75.9,
+    97.9
+   ]
+  },
+  "kinh_nghiem": {
+   "main": {
+    "n": 21,
+    "aspect_recall": [
+     38.1,
+     20.8,
+     59.1
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     52.9,
+     97.8
+    ],
+    "exact_match": [
+     33.3,
+     17.2,
+     54.6
+    ],
+    "n_detected": 8,
+    "n_exact": 7
+   },
+   "coverage_conditional": {
+    "n": 19,
+    "aspect_recall": [
+     42.1,
+     23.1,
+     63.7
+    ],
+    "polarity_acc_given_detection": [
+     87.5,
+     52.9,
+     97.8
+    ],
+    "exact_match": [
+     36.8,
+     19.1,
+     59.0
+    ],
+    "n_detected": 8,
+    "n_exact": 7
+   },
+   "coverage": [
+    90.5,
+    71.1,
+    97.3
+   ]
+  },
+  "cung_cap_tai_lieu": {
+   "main": {
+    "n": 17,
+    "aspect_recall": [
+     82.4,
+     59.0,
+     93.8
+    ],
+    "polarity_acc_given_detection": [
+     78.6,
+     52.4,
+     92.4
+    ],
+    "exact_match": [
+     64.7,
+     41.3,
+     82.7
+    ],
+    "n_detected": 14,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 16,
+    "aspect_recall": [
+     87.5,
+     64.0,
+     96.5
+    ],
+    "polarity_acc_given_detection": [
+     78.6,
+     52.4,
+     92.4
+    ],
+    "exact_match": [
+     68.8,
+     44.4,
+     85.8
+    ],
+    "n_detected": 14,
+    "n_exact": 11
+   },
+   "coverage": [
+    94.1,
+    73.0,
+    99.0
+   ]
+  },
+  "thiet_bi_day_hoc": {
+   "main": {
+    "n": 18,
+    "aspect_recall": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "polarity_acc_given_detection": [
+     81.2,
+     57.0,
+     93.4
+    ],
+    "exact_match": [
+     72.2,
+     49.1,
+     87.5
+    ],
+    "n_detected": 16,
+    "n_exact": 13
+   },
+   "coverage_conditional": {
+    "n": 18,
+    "aspect_recall": [
+     88.9,
+     67.2,
+     96.9
+    ],
+    "polarity_acc_given_detection": [
+     81.2,
+     57.0,
+     93.4
+    ],
+    "exact_match": [
+     72.2,
+     49.1,
+     87.5
+    ],
+    "n_detected": 16,
+    "n_exact": 13
+   },
+   "coverage": [
+    100.0,
+    82.4,
+    100.0
+   ]
+  },
+  "cham_diem": {
+   "main": {
+    "n": 19,
+    "aspect_recall": [
+     63.2,
+     41.0,
+     80.9
+    ],
+    "polarity_acc_given_detection": [
+     91.7,
+     64.6,
+     98.5
+    ],
+    "exact_match": [
+     57.9,
+     36.3,
+     76.9
+    ],
+    "n_detected": 12,
+    "n_exact": 11
+   },
+   "coverage_conditional": {
+    "n": 14,
+    "aspect_recall": [
+     85.7,
+     60.1,
+     96.0
+    ],
+    "polarity_acc_given_detection": [
+     91.7,
+     64.6,
+     98.5
+    ],
+    "exact_match": [
+     78.6,
+     52.4,
+     92.4
+    ],
+    "n_detected": 12,
+    "n_exact": 11
+   },
+   "coverage": [
+    73.7,
+    51.2,
+    88.2
+   ]
+  },
+  "noi_chung": {
+   "main": {
+    "n": 20,
+    "aspect_recall": [
+     45.0,
+     25.8,
+     65.8
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     45.3,
+     93.7
+    ],
+    "exact_match": [
+     35.0,
+     18.1,
+     56.7
+    ],
+    "n_detected": 9,
+    "n_exact": 7
+   },
+   "coverage_conditional": {
+    "n": 13,
+    "aspect_recall": [
+     69.2,
+     42.4,
+     87.3
+    ],
+    "polarity_acc_given_detection": [
+     77.8,
+     45.3,
+     93.7
+    ],
+    "exact_match": [
+     53.8,
+     29.1,
+     76.8
+    ],
+    "n_detected": 9,
+    "n_exact": 7
+   },
+   "coverage": [
+    65.0,
+    43.3,
+    81.9
+   ]
+  }
+ },
+ "per_note_all": {
+  "checked": {
+   "main": {
+    "n": 205,
+    "aspect_recall": [
+     82.9,
+     77.2,
+     87.5
+    ],
+    "polarity_acc_given_detection": [
+     92.4,
+     87.4,
+     95.5
+    ],
+    "exact_match": [
+     76.6,
+     70.3,
+     81.9
+    ],
+    "n_detected": 170,
+    "n_exact": 157
+   },
+   "coverage_conditional": {
+    "n": 194,
+    "aspect_recall": [
+     87.6,
+     82.3,
+     91.5
+    ],
+    "polarity_acc_given_detection": [
+     92.4,
+     87.4,
+     95.5
+    ],
+    "exact_match": [
+     80.9,
+     74.8,
+     85.8
+    ],
+    "n_detected": 170,
+    "n_exact": 157
+   },
+   "coverage": [
+    94.6,
+    90.6,
+    97.0
+   ]
+  },
+  "kept_ai": {
+   "main": {
+    "n": 228,
+    "aspect_recall": [
+     75.0,
+     69.0,
+     80.2
+    ],
+    "polarity_acc_given_detection": [
+     73.7,
+     66.6,
+     79.7
+    ],
+    "exact_match": [
+     55.3,
+     48.8,
+     61.6
+    ],
+    "n_detected": 171,
+    "n_exact": 126
+   },
+   "coverage_conditional": {
+    "n": 209,
+    "aspect_recall": [
+     81.8,
+     76.0,
+     86.5
+    ],
+    "polarity_acc_given_detection": [
+     73.7,
+     66.6,
+     79.7
+    ],
+    "exact_match": [
+     60.3,
+     53.5,
+     66.7
+    ],
+    "n_detected": 171,
+    "n_exact": 126
+   },
+   "coverage": [
+    91.7,
+    87.4,
+    94.6
+   ]
+  }
+ },
+ "per_note_excl": {
+  "checked": {
+   "main": {
+    "n": 199,
+    "aspect_recall": [
+     82.9,
+     77.1,
+     87.5
+    ],
+    "polarity_acc_given_detection": [
+     95.2,
+     90.7,
+     97.5
+    ],
+    "exact_match": [
+     78.9,
+     72.7,
+     84.0
+    ],
+    "n_detected": 165,
+    "n_exact": 157
+   },
+   "coverage_conditional": {
+    "n": 188,
+    "aspect_recall": [
+     87.8,
+     82.3,
+     91.7
+    ],
+    "polarity_acc_given_detection": [
+     95.2,
+     90.7,
+     97.5
+    ],
+    "exact_match": [
+     83.5,
+     77.5,
+     88.1
+    ],
+    "n_detected": 165,
+    "n_exact": 157
+   },
+   "coverage": [
+    94.5,
+    90.4,
+    96.9
+   ]
+  },
+  "kept_ai": {
+   "main": {
+    "n": 198,
+    "aspect_recall": [
+     73.7,
+     67.2,
+     79.4
+    ],
+    "polarity_acc_given_detection": [
+     85.6,
+     79.0,
+     90.4
+    ],
+    "exact_match": [
+     63.1,
+     56.2,
+     69.5
+    ],
+    "n_detected": 146,
+    "n_exact": 125
+   },
+   "coverage_conditional": {
+    "n": 180,
+    "aspect_recall": [
+     81.1,
+     74.8,
+     86.2
+    ],
+    "polarity_acc_given_detection": [
+     85.6,
+     79.0,
+     90.4
+    ],
+    "exact_match": [
+     69.4,
+     62.4,
+     75.7
+    ],
+    "n_detected": 146,
+    "n_exact": 125
+   },
+   "coverage": [
+    90.9,
+    86.1,
+    94.2
+   ]
+  }
+ },
+ "per_stage_all": {
+  "unanimous": {
+   "n": 230,
+   "aspect_recall": [
+    93.0,
+    89.0,
+    95.7
+   ],
+   "polarity_acc_given_detection": [
+    85.0,
+    79.7,
+    89.2
+   ],
+   "exact_match": [
+    79.1,
+    73.4,
+    83.9
+   ],
+   "n_detected": 214,
+   "n_exact": 182
+  },
+  "sol_resolved": {
+   "n": 154,
+   "aspect_recall": [
+    74.0,
+    66.6,
+    80.3
+   ],
+   "polarity_acc_given_detection": [
+    79.8,
+    71.5,
+    86.2
+   ],
+   "exact_match": [
+    59.1,
+    51.2,
+    66.5
+   ],
+   "n_detected": 114,
+   "n_exact": 91
+  },
+  "tiebreak_resolved": {
+   "n": 19,
+   "aspect_recall": [
+    68.4,
+    46.0,
+    84.6
+   ],
+   "polarity_acc_given_detection": [
+    76.9,
+    49.7,
+    91.8
+   ],
+   "exact_match": [
+    52.6,
+    31.7,
+    72.7
+   ],
+   "n_detected": 13,
+   "n_exact": 10
+  },
+  "unresolved": {
+   "n": 30,
+   "aspect_recall": [
+    0.0,
+    -0.0,
+    11.4
+   ],
+   "polarity_acc_given_detection": null,
+   "exact_match": [
+    0.0,
+    -0.0,
+    11.4
+   ],
+   "n_detected": 0,
+   "n_exact": 0
+  }
+ },
+ "per_stage_excl": {
+  "unanimous": {
+   "n": 206,
+   "aspect_recall": [
+    93.2,
+    88.9,
+    95.9
+   ],
+   "polarity_acc_given_detection": [
+    94.3,
+    90.0,
+    96.8
+   ],
+   "exact_match": [
+    87.9,
+    82.7,
+    91.6
+   ],
+   "n_detected": 192,
+   "n_exact": 181
+  },
+  "sol_resolved": {
+   "n": 143,
+   "aspect_recall": [
+    74.1,
+    66.4,
+    80.6
+   ],
+   "polarity_acc_given_detection": [
+    85.8,
+    78.0,
+    91.2
+   ],
+   "exact_match": [
+    63.6,
+    55.5,
+    71.1
+   ],
+   "n_detected": 106,
+   "n_exact": 91
+  },
+  "tiebreak_resolved": {
+   "n": 19,
+   "aspect_recall": [
+    68.4,
+    46.0,
+    84.6
+   ],
+   "polarity_acc_given_detection": [
+    76.9,
+    49.7,
+    91.8
+   ],
+   "exact_match": [
+    52.6,
+    31.7,
+    72.7
+   ],
+   "n_detected": 13,
+   "n_exact": 10
+  },
+  "unresolved": {
+   "n": 29,
+   "aspect_recall": [
+    0.0,
+    0.0,
+    11.7
+   ],
+   "polarity_acc_given_detection": null,
+   "exact_match": [
+    0.0,
+    0.0,
+    11.7
+   ],
+   "n_detected": 0,
+   "n_exact": 0
+  }
+ },
+ "single_voter_exact_all": {
+  "cx/gpt-6-luna": [
+   65.6,
+   61.0,
+   69.9
+  ],
+  "cx/gpt-5.6-luna": [
+   67.2,
+   62.6,
+   71.5
+  ],
+  "cx/gpt-5.6-terra": [
+   66.1,
+   61.5,
+   70.4
+  ]
+ },
+ "single_voter_exact_excl": {
+  "cx/gpt-6-luna": [
+   71.3,
+   66.6,
+   75.5
+  ],
+  "cx/gpt-5.6-luna": [
+   73.0,
+   68.5,
+   77.2
+  ],
+  "cx/gpt-5.6-terra": [
+   71.5,
+   66.9,
+   75.8
+  ]
+ },
+ "confusion_all": {
+  "negative->absent": 33,
+  "negative->negative": 84,
+  "negative->neutral": 43,
+  "negative->unresolved": 11,
+  "neutral->absent": 9,
+  "neutral->neutral": 57,
+  "neutral->positive": 2,
+  "neutral->unresolved": 9,
+  "positive->absent": 18,
+  "positive->ambiguous": 2,
+  "positive->negative": 1,
+  "positive->neutral": 12,
+  "positive->positive": 142,
+  "positive->unresolved": 10
+ },
+ "system_present_no_human_row": 108,
+ "final_cells_by_source_all_3300": {
+  "unanimous": 1848,
+  "sol_resolved": 1335,
+  "tiebreak_resolved": 45,
+  "unresolved": 72
+ },
+ "sol_name_mismatch": [],
+ "call_status": {
+  "voters|cx/gpt-6-luna|ok": 300,
+  "voters|ag/gemini-3.8-flash-high|ok": 192,
+  "voters|ag/gemini-3.8-flash-high|http_error": 5,
+  "voters|ag/gemini-3.8-flash-high|transport_error": 60,
+  "voters|cx/gpt-6-luna|schema_error": 3,
+  "voters|cx/gpt-6-luna|transport_error": 10,
+  "voters|ag/claude-sonnet-5-5-low|ok": 271,
+  "voters|cx/gpt-6-luna|parse_error": 1,
+  "voters|ag/claude-sonnet-5-5-low|http_error": 3,
+  "voters|ag/claude-sonnet-5-5-low|transport_error": 24,
+  "voters|ag/gemini-3.8-flash-high|voided": 220,
+  "voters|ag/gemini-3.8-flash-high|parse_error": 2,
+  "voters|oc/deepseek-v4.1-flash-free|ok": 21,
+  "voters|ag/claude-sonnet-5-5-low|voided": 271,
+  "voters|oc/glm-5.3-flash-free|ok": 11,
+  "voters|oc/glm-5.3-flash-free|schema_error": 1,
+  "voters|oc/deepseek-v4.1-flash-free|http_error": 3,
+  "voters|oc/glm-5.3-flash-free|http_error": 3,
+  "voters|oc/deepseek-v4.1-flash-free|voided": 25,
+  "voters|oc/glm-5.3-flash-free|voided": 15,
+  "voters|ag/gemini-3.8-flash-low|ok": 97,
+  "voters|trollllm/deepseek-v4-1-flash|ok": 74,
+  "voters|ag/gemini-3.8-flash-low|transport_error": 14,
+  "voters|trollllm/deepseek-v4-1-flash|transport_error": 8,
+  "voters|ag/gemini-3.8-flash-low|http_error": 1,
+  "voters|trollllm/deepseek-v4-1-flash|parse_error": 15,
+  "voters|ag/gemini-3.8-flash-low|voided": 98,
+  "voters|trollllm/deepseek-v4-1-flash|voided": 81,
+  "voters|cx/gpt-5.6-luna|ok": 299,
+  "voters|cx/gpt-5.6-terra|ok": 300,
+  "voters|cx/gpt-5.6-terra|transport_error": 5,
+  "voters|cx/gpt-5.6-terra|http_error": 3,
+  "voters|cx/gpt-5.6-luna|transport_error": 6,
+  "voters|cx/gpt-5.6-luna|parse_error": 2,
+  "voters|cx/gpt-5.6-luna|schema_error": 4,
+  "sol|cx/gpt-6.1-sol|ok": 176,
+  "sol|cx/gpt-6.1-sol|transport_error": 24,
+  "sol|cx/gpt-6.1-sol|incomplete_stream": 1,
+  "sol|cx/gpt-6.1-sol|voided": 193,
+  "sol|cx/gpt-6.1-sol|http_error": 1,
+  "sol|cx/gpt-6-sol|ok": 132,
+  "sol|cx/gpt-6-sol|incomplete_stream": 1,
+  "t4|xai/grok-4.7|transport_error": 26,
+  "t4|xai/grok-4.7|ok": 17,
+  "t4|xai/grok-4.7|http_error": 6,
+  "t4|xai/grok-4.7|voided": 49,
+  "t4|cx/gpt-6.1-sol|ok": 29,
+  "t4|cx/gpt-6.1-sol|voided": 29,
+  "t4|claude-code/claude-sonnet-5-5-medium|ok": 75
+ },
+ "calls_issued": {
+  "voters": 1740,
+  "sol": 335,
+  "t4": 153
+ }
+}

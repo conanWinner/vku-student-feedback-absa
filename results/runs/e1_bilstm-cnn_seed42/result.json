@@ -1,0 +1,205 @@
+{
+  "run_name": "e1_bilstm-cnn_seed42",
+  "config": {
+    "model": "bilstm_cnn",
+    "seed": 42,
+    "encoder": "vinai/phobert-base",
+    "revision": null,
+    "preprocess": "underthesea+lower",
+    "word2vec": "/kaggle/input/models/conanwinner1/w2vec/pytorch/default/1/baomoi.vn.model.bin",
+    "data_dir": "/kaggle/input/datasets/thngonquang/vku-feedback-v2",
+    "output_dir": "results/runs",
+    "run_name": "e1_bilstm-cnn_seed42",
+    "alpha": 1.0,
+    "beta": 1.0,
+    "selection": "pair",
+    "lr": 0.0005,
+    "epochs": 30,
+    "limit": null,
+    "device": null,
+    "save_checkpoint": false,
+    "batch_size": 32,
+    "eval_batch_size": 64,
+    "patience": 5
+  },
+  "code_commit": "e89f1ce+src-58b9b17215b6",
+  "dataset_hash": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+  "limited_smoke_run": false,
+  "num_sentences": {
+    "train": 11426,
+    "validation": 1583,
+    "test": 3166
+  },
+  "truncation_rate": {
+    "train": 0.0,
+    "validation": 0.0006317119393556538,
+    "test": 0.0
+  },
+  "vocab_size": 4011,
+  "word2vec": "/kaggle/input/models/conanwinner1/w2vec/pytorch/default/1/baomoi.vn.model.bin",
+  "word2vec_coverage": 0.9057121476677475,
+  "best_epoch": 14,
+  "best_val_score": 0.725925925925926,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 0.8085580505638815,
+      "val_score": 0.6154873164218959,
+      "val_aspect_f1_micro": 0.6920338228749444,
+      "val_pair_f1_micro": 0.6154873164218959,
+      "seconds": 5.855684280395508
+    },
+    {
+      "epoch": 2,
+      "train_loss": 0.5843438305501831,
+      "val_score": 0.6561085972850679,
+      "val_aspect_f1_micro": 0.7354997943233237,
+      "val_pair_f1_micro": 0.6561085972850679,
+      "seconds": 10.30128026008606
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.51533133124506,
+      "val_score": 0.6922266694754582,
+      "val_aspect_f1_micro": 0.775647777543712,
+      "val_pair_f1_micro": 0.6922266694754582,
+      "seconds": 14.707578897476196
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.4716665625322464,
+      "val_score": 0.7018290089323692,
+      "val_aspect_f1_micro": 0.7898766482347936,
+      "val_pair_f1_micro": 0.7018290089323692,
+      "seconds": 18.92722749710083
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.4558110927653046,
+      "val_score": 0.7153566074105804,
+      "val_aspect_f1_micro": 0.8044549153994431,
+      "val_pair_f1_micro": 0.7153566074105804,
+      "seconds": 23.38490605354309
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.43975461020482987,
+      "val_score": 0.7209545740004187,
+      "val_aspect_f1_micro": 0.8134812643918778,
+      "val_pair_f1_micro": 0.7209545740004187,
+      "seconds": 27.80022144317627
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.42850642801163585,
+      "val_score": 0.7179912844988587,
+      "val_aspect_f1_micro": 0.809711558414609,
+      "val_pair_f1_micro": 0.7179912844988587,
+      "seconds": 32.145739793777466
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.4251804979903072,
+      "val_score": 0.712351945854484,
+      "val_aspect_f1_micro": 0.8003384094754653,
+      "val_pair_f1_micro": 0.712351945854484,
+      "seconds": 36.48428511619568
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.4187825053680542,
+      "val_score": 0.7186700767263426,
+      "val_aspect_f1_micro": 0.810315430520034,
+      "val_pair_f1_micro": 0.7186700767263426,
+      "seconds": 40.855446577072144
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.40248094182773675,
+      "val_score": 0.7221179904106734,
+      "val_aspect_f1_micro": 0.815509693558474,
+      "val_pair_f1_micro": 0.7221179904106734,
+      "seconds": 45.13008761405945
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.3984133239481702,
+      "val_score": 0.7233777038269551,
+      "val_aspect_f1_micro": 0.8148918469217971,
+      "val_pair_f1_micro": 0.7233777038269551,
+      "seconds": 49.420464277267456
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.3992127359860353,
+      "val_score": 0.713413350178985,
+      "val_aspect_f1_micro": 0.8094335649610443,
+      "val_pair_f1_micro": 0.713413350178985,
+      "seconds": 53.84442400932312
+    },
+    {
+      "epoch": 13,
+      "train_loss": 0.3969774741949982,
+      "val_score": 0.7203513909224011,
+      "val_aspect_f1_micro": 0.8182388621627275,
+      "val_pair_f1_micro": 0.7203513909224011,
+      "seconds": 58.29489469528198
+    },
+    {
+      "epoch": 14,
+      "train_loss": 0.395362765054796,
+      "val_score": 0.725925925925926,
+      "val_aspect_f1_micro": 0.8173544973544974,
+      "val_pair_f1_micro": 0.725925925925926,
+      "seconds": 62.695488691329956
+    },
+    {
+      "epoch": 15,
+      "train_loss": 0.39516821657645634,
+      "val_score": 0.7192982456140351,
+      "val_aspect_f1_micro": 0.8099415204678363,
+      "val_pair_f1_micro": 0.7192982456140351,
+      "seconds": 67.00495529174805
+    },
+    {
+      "epoch": 16,
+      "train_loss": 0.3941948049644518,
+      "val_score": 0.7202368365404949,
+      "val_aspect_f1_micro": 0.8120109959822372,
+      "val_pair_f1_micro": 0.7202368365404949,
+      "seconds": 71.4004065990448
+    },
+    {
+      "epoch": 17,
+      "train_loss": 0.3908940099138121,
+      "val_score": 0.717852684144819,
+      "val_aspect_f1_micro": 0.8114856429463172,
+      "val_pair_f1_micro": 0.717852684144819,
+      "seconds": 75.83581376075745
+    },
+    {
+      "epoch": 18,
+      "train_loss": 0.3835699348476346,
+      "val_score": 0.7249000210482005,
+      "val_aspect_f1_micro": 0.8166701747000631,
+      "val_pair_f1_micro": 0.7249000210482005,
+      "seconds": 80.2697925567627
+    },
+    {
+      "epoch": 19,
+      "train_loss": 0.37903354391871885,
+      "val_score": 0.7210460772104607,
+      "val_aspect_f1_micro": 0.8111249481112495,
+      "val_pair_f1_micro": 0.7210460772104607,
+      "seconds": 84.62718176841736
+    }
+  ],
+  "train_seconds": 85.16125130653381,
+  "peak_gpu_memory_mb": 215.5830078125,
+  "versions": {
+    "python": "3.13.15",
+    "torch": "2.11.0+cu128",
+    "numpy": "2.1.3",
+    "transformers": null
+  }
+}

@@ -1,0 +1,281 @@
+{
+  "dataset_hash": "c13e760bb2d47295b5dea3ddda4e3d1e65f15846d2afece54ec9531db69643f1",
+  "splits": {
+    "train": {
+      "sentences": 11426,
+      "pairs": 16920,
+      "pairs_per_sentence": 1.48083318746718,
+      "multi_aspect_sentences": 4730,
+      "mean_tokens": 14.308769473131454,
+      "polarity": {
+        "negative": 5944,
+        "neutral": 2517,
+        "positive": 8459
+      },
+      "per_aspect": {
+        "ky_nang_giang_day": {
+          "negative": 1665,
+          "neutral": 122,
+          "positive": 2761
+        },
+        "hanh_vi": {
+          "negative": 914,
+          "neutral": 53,
+          "positive": 3512
+        },
+        "de_xuat": {
+          "negative": 243,
+          "neutral": 1475,
+          "positive": 326
+        },
+        "bai_tap": {
+          "negative": 737,
+          "neutral": 199,
+          "positive": 305
+        },
+        "chuong_trinh_hoc": {
+          "negative": 673,
+          "neutral": 185,
+          "positive": 132
+        },
+        "kien_thuc": {
+          "negative": 198,
+          "neutral": 33,
+          "positive": 636
+        },
+        "kinh_nghiem": {
+          "negative": 254,
+          "neutral": 45,
+          "positive": 353
+        },
+        "cung_cap_tai_lieu": {
+          "negative": 376,
+          "neutral": 85,
+          "positive": 185
+        },
+        "thiet_bi_day_hoc": {
+          "negative": 502,
+          "neutral": 37,
+          "positive": 25
+        },
+        "cham_diem": {
+          "negative": 219,
+          "neutral": 37,
+          "positive": 58
+        },
+        "noi_chung": {
+          "negative": 163,
+          "neutral": 246,
+          "positive": 166
+        }
+      }
+    },
+    "validation": {
+      "sentences": 1583,
+      "pairs": 2320,
+      "pairs_per_sentence": 1.4655716993051169,
+      "multi_aspect_sentences": 635,
+      "mean_tokens": 13.67150979153506,
+      "polarity": {
+        "negative": 788,
+        "neutral": 319,
+        "positive": 1213
+      },
+      "per_aspect": {
+        "ky_nang_giang_day": {
+          "negative": 209,
+          "neutral": 20,
+          "positive": 395
+        },
+        "hanh_vi": {
+          "negative": 127,
+          "neutral": 4,
+          "positive": 480
+        },
+        "de_xuat": {
+          "negative": 35,
+          "neutral": 182,
+          "positive": 61
+        },
+        "bai_tap": {
+          "negative": 87,
+          "neutral": 21,
+          "positive": 46
+        },
+        "chuong_trinh_hoc": {
+          "negative": 106,
+          "neutral": 18,
+          "positive": 20
+        },
+        "kien_thuc": {
+          "negative": 24,
+          "neutral": 4,
+          "positive": 77
+        },
+        "kinh_nghiem": {
+          "negative": 29,
+          "neutral": 6,
+          "positive": 53
+        },
+        "cung_cap_tai_lieu": {
+          "negative": 42,
+          "neutral": 12,
+          "positive": 36
+        },
+        "thiet_bi_day_hoc": {
+          "negative": 69,
+          "neutral": 8,
+          "positive": 4
+        },
+        "cham_diem": {
+          "negative": 34,
+          "neutral": 2,
+          "positive": 7
+        },
+        "noi_chung": {
+          "negative": 26,
+          "neutral": 42,
+          "positive": 34
+        }
+      }
+    },
+    "test": {
+      "sentences": 3166,
+      "pairs": 4670,
+      "pairs_per_sentence": 1.4750473783954516,
+      "multi_aspect_sentences": 1276,
+      "mean_tokens": 14.2207833228048,
+      "polarity": {
+        "negative": 1629,
+        "neutral": 697,
+        "positive": 2344
+      },
+      "per_aspect": {
+        "ky_nang_giang_day": {
+          "negative": 458,
+          "neutral": 52,
+          "positive": 804
+        },
+        "hanh_vi": {
+          "negative": 253,
+          "neutral": 5,
+          "positive": 951
+        },
+        "de_xuat": {
+          "negative": 79,
+          "neutral": 383,
+          "positive": 87
+        },
+        "bai_tap": {
+          "negative": 187,
+          "neutral": 48,
+          "positive": 95
+        },
+        "chuong_trinh_hoc": {
+          "negative": 175,
+          "neutral": 53,
+          "positive": 44
+        },
+        "kien_thuc": {
+          "negative": 66,
+          "neutral": 7,
+          "positive": 165
+        },
+        "kinh_nghiem": {
+          "negative": 58,
+          "neutral": 18,
+          "positive": 86
+        },
+        "cung_cap_tai_lieu": {
+          "negative": 90,
+          "neutral": 26,
+          "positive": 47
+        },
+        "thiet_bi_day_hoc": {
+          "negative": 144,
+          "neutral": 13,
+          "positive": 8
+        },
+        "cham_diem": {
+          "negative": 69,
+          "neutral": 10,
+          "positive": 13
+        },
+        "noi_chung": {
+          "negative": 50,
+          "neutral": 82,
+          "positive": 44
+        }
+      }
+    }
+  },
+  "all": {
+    "sentences": 16175,
+    "pairs": 23910,
+    "pairs_per_sentence": 1.478207109737249,
+    "multi_aspect_sentences": 6641,
+    "mean_tokens": 14.22918083462133,
+    "polarity": {
+      "negative": 8361,
+      "neutral": 3533,
+      "positive": 12016
+    },
+    "per_aspect": {
+      "ky_nang_giang_day": {
+        "negative": 2332,
+        "neutral": 194,
+        "positive": 3960
+      },
+      "hanh_vi": {
+        "negative": 1294,
+        "neutral": 62,
+        "positive": 4943
+      },
+      "de_xuat": {
+        "negative": 357,
+        "neutral": 2040,
+        "positive": 474
+      },
+      "bai_tap": {
+        "negative": 1011,
+        "neutral": 268,
+        "positive": 446
+      },
+      "chuong_trinh_hoc": {
+        "negative": 954,
+        "neutral": 256,
+        "positive": 196
+      },
+      "kien_thuc": {
+        "negative": 288,
+        "neutral": 44,
+        "positive": 878
+      },
+      "kinh_nghiem": {
+        "negative": 341,
+        "neutral": 69,
+        "positive": 492
+      },
+      "cung_cap_tai_lieu": {
+        "negative": 508,
+        "neutral": 123,
+        "positive": 268
+      },
+      "thiet_bi_day_hoc": {
+        "negative": 715,
+        "neutral": 58,
+        "positive": 37
+      },
+      "cham_diem": {
+        "negative": 322,
+        "neutral": 49,
+        "positive": 78
+      },
+      "noi_chung": {
+        "negative": 239,
+        "neutral": 370,
+        "positive": 244
+      }
+    }
+  }
+}
