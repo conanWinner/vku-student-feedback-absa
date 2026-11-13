@@ -22,7 +22,7 @@ The paper reports model names, not router aliases. Calls used one API proxy. The
 
 The pilot and the external UIT-VSFC / review-database checks from the earlier draft are omitted from the paper for the same leakage reason. Their counts remain in the scoring spec history, not in the manuscript.
 
-Public-release correction: the decision maker was misnamed in these files and is now given as Đoàn Quang Thắng. SHA-256 of each file before this redaction:
+Public-release correction: the decision maker was misnamed in these files and is now given as Đoàn Quang Thắng. SHA-256 of each file before this correction:
   - `./specs/SCORING_SPEC_ADDENDUM_4.md`: `7cadfb902863bed56089939295974f154e5180b0323a5bfb6f2e952e88d8abac`
   - `./specs/SCORING_SPEC_ADDENDUM_5.md`: `bcc8fe5131f3f69f8b6c78998169ff9f745c6647d047b4fb506b80fd376a4c3f`
   - `./specs/SCORING_SPEC_ADDENDUM_6.md`: `d1299aedd300554826af8506b7d2d772507b826a7d2c1f5ffd916328ac459e22`
