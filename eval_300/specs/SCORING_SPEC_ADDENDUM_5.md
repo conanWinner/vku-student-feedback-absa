@@ -3,7 +3,7 @@
 Date: 2026-11-10, about 13:58 UTC+7. Scope: **retry of already-journaled failed calls**, plus the rule for recomputing Sol / tie-break from the final voter votes. Models, prompts, first-attempt routing definitions, resolution rules, metrics, Wilson CIs, and the policy-cell rule are unchanged. All model outputs remain NOT GOLD.
 
 ## Why
-At the user's explicit request (Le Duc, 2026-11-10, about 13:43 UTC+7): "cái nào cần chạy lại thì bạn cứ chạy lại nhé, không sao cả." This is treated as approval to re-call failed research calls (timeouts, incomplete_stream, transport/HTTP errors, wrong-returned-model, and any other non-ok status) so that those jobs can receive a real vote.
+At the user's explicit request (the operator, 2026-11-10, about 13:43 UTC+7): "cái nào cần chạy lại thì bạn cứ chạy lại nhé, không sao cả." This is treated as approval to re-call failed research calls (timeouts, incomplete_stream, transport/HTTP errors, wrong-returned-model, and any other non-ok status) so that those jobs can receive a real vote.
 
 This decision was made after seeing **only failure counts** (status, HTTP code, and error class per model and stage). No label outcomes, no agreement scores, and no comparison against the human reference were inspected for this decision.
 

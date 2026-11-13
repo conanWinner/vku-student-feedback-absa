@@ -4,7 +4,7 @@ Date: 2026-11-10, about 21:10 UTC+7 (Asia/Saigon). All model outputs remain NOT 
 
 ## Decision
 
-User decision (Le Duc, 2026-11-10 21:06 UTC+7): the Gemini voter (`ag/gemini-3.8-flash-high`) is **replaced entirely** by `oc/deepseek-v4.1-flash-free` on 9router, and all 300 sentences are rerun for the voter-3 slot. Reason: the Gemini 9router lane is slow and unreliable (repeated ReadTimeouts and 503s). At the 21:08 drain, 104 Gemini jobs were still queued after the agy route was abandoned (Addendum 7c). Gemini is **no longer a voter in the main result**. A dummy ping at about 21:04 UTC+7 returned HTTP 200, model `deepseek-v4.1-flash-free`, content OK (not a vote).
+User decision (the operator, 2026-11-10 21:06 UTC+7): the Gemini voter (`ag/gemini-3.8-flash-high`) is **replaced entirely** by `oc/deepseek-v4.1-flash-free` on 9router, and all 300 sentences are rerun for the voter-3 slot. Reason: the Gemini 9router lane is slow and unreliable (repeated ReadTimeouts and 503s). At the 21:08 drain, 104 Gemini jobs were still queued after the agy route was abandoned (Addendum 7c). Gemini is **no longer a voter in the main result**. A dummy ping at about 21:04 UTC+7 returned HTTP 200, model `deepseek-v4.1-flash-free`, content OK (not a vote).
 
 Main-result voters from this addendum on: `cx/gpt-6-luna`, `ag/claude-sonnet-5-5-low` (Claude Code on the user machine, imported; Addendum 7/7b/7c), and `oc/deepseek-v4.1-flash-free`.
 

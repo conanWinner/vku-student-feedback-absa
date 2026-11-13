@@ -45,3 +45,7 @@ Each input is either a file with one sentence per line or a CSV with a `sentence
 - `results/llm_crosscheck/`: the 500-sentence cross-check (sample, per-cell labels, summary). Raw model outputs were removed because they quote the sentences.
 - `eval_300/`: specs, addenda, scripts and sanitized results of the 300-sentence blind re-annotation.
 - `docs/training-cost.md`: best epoch per seed, training time and GPU memory.
+
+## License
+
+Code (`src/`, `scripts/`, `tests/`) is under the MIT License (`LICENSE`). Labels, results and documentation are under CC BY 4.0 (`LICENSE-DATA`). Neither covers the UIT-VSFC text, which this repository does not contain. Please cite the paper and UIT-VSFC when you use the labels.

@@ -3,7 +3,7 @@
 Date: 2026-11-10, about 16:53 UTC+7. Scope: **pacing and scheduling only**. No change to models, prompts, parameters, timeouts, scoring, resolution rules, or the Addendum 5 retry policy. All model outputs remain NOT GOLD.
 
 ## Why
-At the user's explicit request (Le Duc, 2026-11-10, about 16:48 UTC+7), chosen from options: "Chạy song song làn cx/xai với ag." This authorizes running the cx and xai lanes in parallel with the ag lane.
+At the user's explicit request (the operator, 2026-11-10, about 16:48 UTC+7), chosen from options: "Chạy song song làn cx/xai với ag." This authorizes running the cx and xai lanes in parallel with the ag lane.
 
 The user did **not** approve reducing the ag gap, increasing ag concurrency, or shortening timeouts. Ag pacing stays exactly as in Addenda 2–5: at most one ag call in flight, the same start gap (20 s), the same +10/−5 gap tuning (cap 60 s, floor 10 s), and the same 503 pause + re-probe. Timeouts are unchanged.
 

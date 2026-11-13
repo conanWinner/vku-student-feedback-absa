@@ -11,7 +11,7 @@ This addendum was written:
 
 - **TrollLLM (`trollllm/deepseek-v4-1-flash`, V3 under 7e.2) failed at the provider.** From about 01:00 UTC+7 no new ok vote. The scheduler recorded 15 `parse_error` (HTTP 200 with empty content) and 8 `transport_error` attempts in total; the `tl` lane hit its breaker 9 times (failure streak). Operator checks at 06:17 UTC+7 (not votes): 3 non-stream calls returned HTTP 200 with empty content (0 completion tokens, status `in_progress`); 1 stream call returned `[Error] Upstream request failed`. The sibling `trollllm/deepseek-v4-flash` (user suggestion) gave 3/3 empty responses. So the whole TrollLLM provider/account was failing, not one model.
 - **Gemini-low (`ag/gemini-3.8-flash-low`, V2 under 7e.2) was too slow.** 97 ok votes after ~8 h, 14 transport errors (mostly `ReadTimeout`), throughput about 7–10 items per hour; at that rate the remaining ~200 items would take > 20 h, past the working deadline for FJCAI 2027 (15 Nov 2026).
-- User decision (Le Duc, 2026-11-11 ~06:24 UTC+7, verbatim): "Đồng ý, chuyển sang luna 6 + luna 5.6 + terra 5.6, triển khai luôn" (approving an all-Codex voter set, because "các model của codex thì oke").
+- User decision (the operator, 2026-11-11 ~06:24 UTC+7, verbatim): "Đồng ý, chuyển sang luna 6 + luna 5.6 + terra 5.6, triển khai luôn" (approving an all-Codex voter set, because "các model của codex thì oke").
 
 ## Voters (all `cx/*` over 9router, endpoint exactly `<9ROUTER_ENDPOINT>`)
 

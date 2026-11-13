@@ -4,7 +4,7 @@ Date: 2026-11-10, about 20:40 UTC+7 (Asia/Saigon). Scope: **route for the remain
 
 ## Decision
 
-User decision (Le Duc, 2026-11-10, about 20:35 UTC+7): the `agy` CLI route for the Gemini voter is **abandoned**. Reason (diagnostics on dummy, non-eval sentences only): `agy` cannot be made a single-shot call. Even with a no-tools workspace agent and session-only deny rules it still invoked `manage_task` and `list_resources`; in the live attempt-3 call for E085 it had earlier invoked `search_web` about 10 times looking for the UIT-VSFC dataset (a label-leak / contamination risk); 2 of 3 dummy sentences hit the 120 s print timeout. Disabling those tools would require editing the user's global `agy` config, which is out of scope.
+User decision (the operator, 2026-11-10, about 20:35 UTC+7): the `agy` CLI route for the Gemini voter is **abandoned**. Reason (diagnostics on dummy, non-eval sentences only): `agy` cannot be made a single-shot call. Even with a no-tools workspace agent and session-only deny rules it still invoked `manage_task` and `list_resources`; in the live attempt-3 call for E085 it had earlier invoked `search_web` about 10 times looking for the UIT-VSFC dataset (a label-leak / contamination risk); 2 of 3 dummy sentences hit the 120 s print timeout. Disabling those tools would require editing the user's global `agy` config, which is out of scope.
 
 `agy` is **never started again** for this eval (scoring or sensitivity).
 

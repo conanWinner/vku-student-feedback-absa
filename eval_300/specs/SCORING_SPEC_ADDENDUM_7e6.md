@@ -4,7 +4,7 @@ Written 2026-11-11, about 10:45 UTC+7, **AFTER** the 7e.5 results (`results.json
 
 ## User decision
 
-Le Duc, 2026-11-11 about 10:39 UTC+7 (verbatim): "cái nào chưa chốt thì nên lấy nhãn cũ" — for cells that are still unresolved, use the old label.
+the operator, 2026-11-11 about 10:39 UTC+7 (verbatim): "cái nào chưa chốt thì nên lấy nhãn cũ" — for cells that are still unresolved, use the old label.
 
 ## Rule (7e.6 fallback)
 

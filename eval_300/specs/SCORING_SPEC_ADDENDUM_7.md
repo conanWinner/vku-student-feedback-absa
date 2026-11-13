@@ -3,7 +3,7 @@
 Date: 2026-11-10, about 17:22 UTC+7. Scope: **route change for the remaining ag-lane voter work only**, plus a pre-registered route-sensitivity check. No change to cx (luna voter, Sol) or xai (t4) routes, prompts, resolution rules, metrics, or the Addendum 5 retry policy. All model outputs remain NOT GOLD.
 
 ## Why
-At the user's request (Le Duc, 2026-11-10, about 17:14–17:15 UTC+7), the slow 9router `ag/` voter lane is moved to CLIs on the user's own computer (machineId 52202068-c358-483c-be5c-9bc0e15581f1, Linux, user `conanwinner`):
+At the user's request (the operator, 2026-11-10, about 17:14–17:15 UTC+7), the slow 9router `ag/` voter lane is moved to CLIs on the user's own computer (machineId 52202068-c358-483c-be5c-9bc0e15581f1, Linux, user `conanwinner`):
 - Claude voter via Claude Code (observed 2.1.318, `/home/conanwinner/.local/bin/claude`).
 - Gemini voter via `agy` (Antigravity CLI; observed 1.5.4, `/home/conanwinner/.local/bin/agy`).
 

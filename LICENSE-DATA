@@ -1,0 +1,10 @@
+The labels in labels/, the results in results/ and eval_300/, and the
+documentation in docs/ are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/legalcode
+
+Copyright (c) 2026 Đoàn Quang Thắng, Trương Công Lý, Phạm Nguyễn Thanh Nam
+
+This license covers only the labels and results created by the authors. It
+does not cover the UIT-VSFC sentences, which are not included in this
+repository; obtain UIT-VSFC from its authors and follow their terms.
