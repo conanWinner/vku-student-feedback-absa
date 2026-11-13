@@ -1,0 +1,41 @@
+Phiên bản: guideline-vi-2026-11-08-v2
+
+Nhiệm vụ: với MỘT câu phản hồi sinh viên tiếng Việt, chọn đúng một quyết định cho từng khía cạnh trong 11 khía cạnh dưới đây.
+
+Quyết định:
+- absent: câu không đề cập khía cạnh. evidence phải là chuỗi rỗng.
+- positive: có đề cập và là lời khen hoặc sự hài lòng. evidence là một đoạn nguyên văn đúng từng ký tự trong câu.
+- negative: có lời chê rõ hoặc đánh giá tiêu cực rõ. Chỉ yêu cầu cải thiện thì không phải lời chê và không đủ để suy ra negative. evidence là đoạn nguyên văn.
+- neutral: khía cạnh chỉ được nêu hoặc chỉ được yêu cầu, không có lời khen và không có lời chê rõ. evidence là đoạn nguyên văn.
+- abstain: không đủ căn cứ để chọn absent, positive, negative hay neutral. Không đoán.
+- ambiguous: có đoạn chữ liên quan nhưng không chốt được khía cạnh hoặc cực tính.
+
+Chốt neutral khi chỉ yêu cầu cải thiện; negative khi có lời chê rõ. de_xuat là neutral trong hai trường hợp này.
+- Chỉ yêu cầu cải thiện, không có lời chê rõ: khía cạnh được yêu cầu là neutral. de_xuat là neutral.
+- Có lời chê rõ hoặc đánh giá tiêu cực rõ, kể cả khi câu còn yêu cầu cải thiện: khía cạnh bị chê là negative. de_xuat vẫn là neutral.
+- Hai trường hợp này không đổi de_xuat ở câu không thuộc hai trường hợp đó. Không gán mọi de_xuat thành neutral.
+- Ví dụ: "cần nâng cấp máy chiếu" -> thiet_bi_day_hoc neutral, de_xuat neutral.
+- Ví dụ: "máy chiếu mờ, cần nâng cấp" -> thiet_bi_day_hoc negative, de_xuat neutral.
+
+Không dùng absent cho chỗ không chắc. Chỗ không chắc là abstain hoặc ambiguous.
+Không bắt buộc mỗi câu phải có một khía cạnh. Câu cụt hoặc không rõ có thể abstain ở mọi khía cạnh.
+Không dùng noi_chung để điền cho đủ. Chỉ dùng noi_chung khi câu có nhận xét chung riêng.
+Nếu một đề xuất nhằm rõ vào một khía cạnh, ghi khía cạnh đó và de_xuat. Cực tính lấy theo quy tắc ở trên, không suy negative chỉ vì có yêu cầu cải thiện. Nếu không rõ đề xuất thuộc khía cạnh nào, không gán thêm khía cạnh.
+evidence không được diễn giải hay sửa chính tả. Với positive, negative và neutral, evidence không được rỗng.
+
+Khía cạnh:
+- ky_nang_giang_day: cách tổ chức dạy học, phương pháp, tốc độ, dễ hay khó hiểu.
+- hanh_vi: thái độ, cách giao tiếp, sự nhiệt tình của giảng viên.
+- de_xuat: đề xuất hoặc mong muốn gửi giảng viên hay nhà trường. Tín hiệu thường gặp: nên, cần, mong, đề nghị, hy vọng.
+- bai_tap: bài tập, số lượng, loại bài, hạn nộp.
+- chuong_trinh_hoc: môn học, chương trình, thời lượng, cấu trúc khóa.
+- kien_thuc: độ vững và tính đúng của kiến thức giảng viên.
+- kinh_nghiem: ví dụ thực tế, kinh nghiệm nghề đưa vào bài giảng.
+- cung_cap_tai_lieu: giáo trình, slide, tài liệu.
+- thiet_bi_day_hoc: phòng học, máy chiếu, quạt, đèn, phòng lab.
+- cham_diem: cách cho điểm, tiêu chí, sự công bằng khi chấm.
+- noi_chung: nhận xét chung không thuộc các khía cạnh trên.
+
+Trả về đúng một JSON, không markdown, không giải thích. Đủ 11 khía cạnh, mỗi khía cạnh một lần.
+Khóa decision chỉ được là: absent, positive, negative, neutral, abstain, ambiguous.
+{"aspects":[{"aspect":"<mã>","decision":"<quyết định>","evidence":"<đoạn nguyên văn hoặc rỗng>"}]}

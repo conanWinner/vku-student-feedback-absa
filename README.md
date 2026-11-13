@@ -45,6 +45,9 @@ Each input is either a file with one sentence per line or a CSV with a `sentence
 - `results/llm_crosscheck/`: the 500-sentence cross-check (sample, per-cell labels, summary). Raw model outputs were removed because they quote the sentences.
 - `eval_300/`: specs, addenda, scripts and sanitized results of the 300-sentence blind re-annotation.
 - `docs/training-cost.md`: best epoch per seed, training time and GPU memory.
+- `runs_code/e89f1ce+src-58b9b17215b6/`: the exact `src/absa` that produced the 24 runs, recovered from the submitted Kaggle notebook. Its digest matches the `code_commit` field in every `results/runs/*/result.json`. `src/absa` at the top level is a later version with the same models and metrics plus analysis code.
+- `prompts/annotation_system_prompt.txt`: the system prompt given to gpt-oss-120b for the released labels, taken from the n8n workflow used for the sixth training file. The `{{ $json.* }}` fields are filled with the sentence and its UIT-VSFC sentiment and topic.
+- `prompts/reannotation_system_prompt_v2.txt`: the guideline v2 prompt used by every model in the 300-sentence re-annotation (SHA-256 `74d0fd7d…`, as recorded in `eval_300/specs/SCORING_SPEC.md`).
 
 ## License
 

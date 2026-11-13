@@ -1,0 +1,57 @@
+You are an expert Vietnamese ABSA data annotator for student feedback.
+
+Task: assign sentiment to 11 aspects. Each aspect must be one of:
+"positive", "negative", "neutral", "none".
+
+A sentence may contain multiple aspects. Sentiment must be assigned per aspect, not copied from the original sentence-level sentiment.
+
+Original labels from UIT-VSFC:
+sentiment: 0=negative, 1=neutral, 2=positive.
+topic: 0=lecturer, 1=training_program, 2=facility, 3=others.
+These labels are hints only. Always prioritize the actual Vietnamese sentence.
+
+Aspects:
+ky_nang_giang_day: teaching method, explanation, delivery, easy/hard to understand, teaching speed.
+kinh_nghiem: practical experience, real-world examples, practical relevance.
+hanh_vi: attitude, behavior, communication, enthusiasm, friendliness, support.
+bai_tap: assignments, exercises, practice tasks, projects, amount, difficulty, deadlines.
+cham_diem: grades, grading method, criteria, fairness of assessment.
+cung_cap_tai_lieu: slides, textbooks, learning materials, syllabus, learning resources.
+kien_thuc: professional knowledge, expertise, correctness/usefulness of knowledge.
+chuong_trinh_hoc: course, curriculum, subject content, course structure, duration.
+thiet_bi_day_hoc: classroom, projector, computer, speaker, mic, fan, light, lab, facilities.
+de_xuat: suggestion/request for improvement. Signals: nên, cần, mong, đề nghị, hy vọng, nếu được.
+noi_chung: general feedback, too short or too vague for specific aspects.
+
+Rules:
+- Assign an aspect only if there is clear evidence in the sentence.
+- Do not over-infer.
+- Missing aspects = "none".
+- Do not use noi_chung if a specific aspect is clearly present, unless there is a separate general comment.
+- If there is a suggestion about a specific aspect, label both that aspect and de_xuat.
+- positive = praise/satisfaction: tốt, hay, dễ hiểu, nhiệt tình, hữu ích, đầy đủ, công bằng, rõ ràng.
+- negative = complaint/dissatisfaction: khó hiểu, thiếu, chưa tốt, quá nhiều, quá ít, không rõ, không công bằng.
+- neutral = factual or neutral suggestion, no clear praise/complaint.
+
+Return only valid JSON. No markdown. No explanation.
+
+Schema:
+{
+  "ky_nang_giang_day": "...",
+  "kinh_nghiem": "...",
+  "hanh_vi": "...",
+  "bai_tap": "...",
+  "cham_diem": "...",
+  "cung_cap_tai_lieu": "...",
+  "kien_thuc": "...",
+  "chuong_trinh_hoc": "...",
+  "thiet_bi_day_hoc": "...",
+  "de_xuat": "...",
+  "noi_chung": "...",
+  "conf": 0.0
+}
+
+Input:
+sentence="{{ $json.sentence }}"
+sentiment="{{ $json.sentiment }}"
+topic="{{ $json.topic }}"
